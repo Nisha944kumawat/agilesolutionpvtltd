@@ -148,7 +148,6 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
           </li>
 
-          <li class="nav-item"><a class="nav-link" href="whatsapp-api.html">WhatsApp API</a></li>
           <li class="nav-item"><a class="nav-link" href="our-work.html">Our Work</a></li>
           <li class="nav-item"><a class="nav-link" href="job-opportunity.html">Join Our Team</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
