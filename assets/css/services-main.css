@@ -1,0 +1,50 @@
+:root {
+  --service-navy:#03153a; --service-blue:#1264f5; --service-text:#071b4b;
+  --service-muted:#53617d; --service-line:#d5def0;
+}
+* { box-sizing:border-box; }
+.our-services { position:relative; isolation:isolate; overflow:hidden; min-height:795px; padding:34px 0 24px; background:#03153a url("../images/web-application.jpg") center/cover no-repeat; font-family:Arial,Helvetica,sans-serif; }
+.services-overlay { position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(1,17,51,.94),rgba(3,25,64,.88),rgba(1,17,51,.94)); }
+.services-container { position:relative; width:100%; max-width:1540px; margin:auto; padding:0 20px; }
+.services-heading { max-width:760px; margin:0 auto 20px; text-align:center; color:#fff; }
+.services-eyebrow { display:block; margin-bottom:7px; color:#2680ff; font-size:15px; font-weight:800; letter-spacing:1.4px; text-transform:uppercase; }
+.services-heading h2 { margin:0 0 10px; color:#fff; font-size:38px; font-weight:800; line-height:1.15; letter-spacing:-1px; }
+.services-heading p { max-width:680px; margin:auto; color:rgba(255,255,255,.88); font-size:17px; line-height:1.5; }
+.service-coverflow { position:relative; height:470px; width:100%; margin:auto; perspective:1800px; transform-style:preserve-3d; }
+.service-card { position:absolute; top:50%; left:50%; z-index:0; display:flex; flex-direction:column; width:670px; height:466px; padding:32px 43px 27px; overflow:hidden; border:1px solid #bfd0ef; border-radius:19px; background:linear-gradient(135deg,#fff 0%,#fbfcff 100%); box-shadow:0 18px 45px rgba(0,8,32,.38); opacity:0; pointer-events:none; transform:translate(-50%,-50%) scale(.5); transform-origin:center; transition:transform .62s cubic-bezier(.22,.8,.25,1),opacity .42s,filter .42s; }
+.service-card.is-active { z-index:5; opacity:1; pointer-events:auto; transform:translate(-50%,-50%) scale(1); border:2px solid #2376ff; box-shadow:0 20px 55px rgba(0,5,27,.55),0 0 0 3px rgba(35,118,255,.22); }
+.service-card.is-prev,.service-card.is-next { z-index:3; opacity:.91; filter:saturate(.72) brightness(.92); }
+.service-card.is-prev { transform:translate(calc(-50% - 460px),-50%) rotateY(8deg) scale(.67); }
+.service-card.is-next { transform:translate(calc(-50% + 460px),-50%) rotateY(-8deg) scale(.67); }
+.service-card.is-far-prev,.service-card.is-far-next { z-index:1; opacity:.42; filter:saturate(.55) brightness(.68); }
+.service-card.is-far-prev { transform:translate(calc(-50% - 690px),-50%) rotateY(7deg) scale(.55); }
+.service-card.is-far-next { transform:translate(calc(-50% + 690px),-50%) rotateY(-7deg) scale(.55); }
+.service-card.is-hidden { opacity:0; transform:translate(-50%,-50%) scale(.45); }
+.service-number { position:absolute; top:31px; right:29px; display:grid; place-items:center; width:43px; height:43px; border-radius:50%; color:#fff; background:linear-gradient(145deg,#2778f8,#0759ef); font-size:14px; font-weight:800; box-shadow:0 7px 18px rgba(18,100,245,.25); }
+.service-card-head { display:grid; grid-template-columns:82px minmax(0,1fr); align-items:center; gap:32px; min-height:130px; padding:0 62px 24px 0; border-bottom:1px solid var(--service-line); }
+.service-icon { display:grid; place-items:center; width:82px; height:82px; border-radius:17px; color:#fff; background:linear-gradient(145deg,#2378fa,#0757ec); font-size:33px; box-shadow:0 10px 22px rgba(18,100,245,.25); }
+.service-card-head h3 { margin:0 0 7px; color:var(--service-text); font-size:24px; font-weight:800; line-height:1.22; }
+.service-card-head p { margin:0; color:var(--service-muted); font-size:16px; line-height:1.45; }
+.service-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(4,49px); grid-auto-flow:column; gap:0 35px; height:196px; margin:15px 0 5px; padding:0; overflow:hidden; list-style:none; }
+.service-list li { min-width:0; margin:0; }
+.service-list li:nth-child(n+9) { display:none; }
+.service-list a { position:relative; display:block; padding:13px 0 11px 40px; overflow:hidden; color:#0b2357; font-size:16px; font-weight:600; line-height:1.4; text-decoration:none; text-overflow:ellipsis; white-space:nowrap; transition:.2s; }
+.service-list a::before { content:"✓"; position:absolute; top:13px; left:0; display:grid; place-items:center; width:22px; height:22px; border-radius:50%; color:#fff; background:var(--service-blue); font-size:13px; font-weight:900; }
+.service-list a:hover,.service-list a:focus-visible { color:var(--service-blue); transform:translateX(2px); }
+.service-explore { display:inline-flex; align-items:center; align-self:flex-start; gap:14px; margin-top:auto; color:var(--service-blue); font-size:18px; font-weight:800; text-decoration:none; }
+.service-explore i { transition:transform .2s; }.service-explore:hover i { transform:translateX(5px); }
+.service-card:not(.is-active) .service-number { display:none; }
+.service-card:not(.is-active) .service-card-head { grid-template-columns:62px minmax(0,1fr); gap:18px; min-height:118px; padding-right:0; }
+.service-card:not(.is-active) .service-icon { width:62px; height:62px; border-radius:14px; font-size:26px; }
+.service-card:not(.is-active) .service-card-head h3 { font-size:20px; }.service-card:not(.is-active) .service-card-head p { font-size:13px; }
+.service-card:not(.is-active) .service-list { gap:0 16px; }.service-card:not(.is-active) .service-list a { padding-left:31px; font-size:12px; }.service-card:not(.is-active) .service-list a::before { width:17px;height:17px;font-size:10px; }
+.service-controls { position:relative; z-index:8; display:flex; align-items:center; justify-content:center; gap:27px; margin-top:17px; }
+.service-control { display:grid; place-items:center; width:61px; height:61px; padding:0; border:2px solid #3c82ff; border-radius:50%; color:#fff; background:rgba(3,21,58,.66); font-size:22px; cursor:pointer; transition:.2s; }
+.service-control:hover,.service-control:focus-visible { background:var(--service-blue); transform:scale(1.05); outline:none; }
+.service-dots { display:flex; align-items:center; justify-content:center; gap:14px; min-width:162px; }
+.service-dot { width:15px; height:15px; padding:0; border:0; border-radius:20px; background:rgba(255,255,255,.28); cursor:pointer; transition:.3s; }
+.service-dot.is-active { width:44px; background:#2478ff; }
+.service-dot.is-window-hidden { display:none; }
+.service-counter { position:relative; z-index:8; margin:14px 0 0; color:rgba(255,255,255,.9); font-size:18px; text-align:center; }
+.our-services .owl-nav,.our-services .owl-dots { display:none!important; }
+@media (prefers-reduced-motion:reduce){.service-card,.service-control,.service-dot,.service-list a,.service-explore i{transition:none}}

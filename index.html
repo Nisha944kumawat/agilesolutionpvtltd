@@ -41,11 +41,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <link rel="stylesheet" href="assets/css/style.min.css?v=20260803">
-  <link rel="stylesheet" href="assets/css/responsive.css?v=20260407-sitemap-html">
+    <!-- Dedicated services CSS must load after the global stylesheet. -->
+  <link rel="stylesheet" href="assets/css/services-main.css?v=20260805-services-fix">
+  <link rel="stylesheet" href="assets/css/responsive.css?v=20260805-services-fix">
   <!-- Custom Mega Menu CSS -->
   <style>
 
   </style>
+
 
   <link rel="alternate" hreflang="en" href="https://agilesolutionpvtltd.vercel.app/">
   <link rel="alternate" hreflang="x-default" href="https://agilesolutionpvtltd.vercel.app/">
@@ -225,12 +228,7 @@
     </div>
   </section>
   <!----------------------end-about-us-section------------------------------------>
-  <!----------------------our-services-section----------------------------------->
-<!-- Required in <head> (remove any duplicate links already present):
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
--->
+  <!-- services section- start -->
 
 <section class="our-services" id="services" aria-labelledby="services-title">
   <div class="services-overlay" aria-hidden="true"></div>
@@ -241,11 +239,11 @@
       <p>End-to-end website, marketing, software and automation solutions designed to grow your business online.</p>
     </header>
 
-    <div class="owl-carousel owl-theme service-carousel" aria-label="Agile Edtech Solutions services">
+    <div class="service-coverflow" aria-label="Agile Edtech Solutions services">
       <article class="service-card">
         <div class="service-card-head">
           <span class="service-icon"><i class="fa-solid fa-window-maximize" aria-hidden="true"></i></span>
-          <div><div class="seo-card-title">Website Design &amp; Development</div><p>Fast, responsive and conversion-focused websites for modern businesses.</p></div>
+          <div><h3>Website Design &amp; Development</h3><p>Fast, responsive and conversion-focused websites for modern businesses.</p></div>
         </div>
         <ul class="service-list">
           <li><a href="landing-page-development.html">Landing Page / Single Page Website</a></li>
@@ -257,13 +255,13 @@
           <li><a href="responsive-website-design.html">Responsive Website Design</a></li>
           <li><a href="dynamic-website-development.html">Dynamic Website Development</a></li>
         </ul>
-        <a class="service-explore" href="website-design-development.html" aria-label="Explore Website Design and Development services">Explore Website Development <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="website-design-development.html" aria-label="Explore Website Design and Development services">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
         <div class="service-card-head">
           <span class="service-icon"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i></span>
-          <div><div class="seo-card-title">Digital Marketing Services</div><p>Data-driven campaigns that improve visibility, leads and business growth.</p></div>
+          <div><h3>Digital Marketing Services</h3><p>Data-driven campaigns that improve visibility, leads and business growth.</p></div>
         </div>
         <ul class="service-list">
           <li><a href="google-ads.html">Google Ads</a></li><li><a href="facebook-ads.html">Facebook Ads</a></li>
@@ -276,22 +274,22 @@
           <li><a href="online-reputation-management.html">Online Reputation Management</a></li><li><a href="lead-generation.html">Lead Generation</a></li>
           <li><a href="performance-marketing.html">Performance Marketing</a></li>
         </ul>
-        <a class="service-explore" href="digital-marketing.html">Explore Digital Marketing <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="digital-marketing.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i></span><div><div class="seo-card-title">Mobile Application Development</div><p>User-friendly Android and iOS applications built for performance and scale.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i></span><div><h3>Mobile Application Development</h3><p>User-friendly Android and iOS applications built for performance and scale.</p></div></div>
         <ul class="service-list">
           <li><a href="grocery-app-development.html">Grocery Website &amp; Mobile App</a></li><li><a href="pharmacy-app-development.html">Pharmacy Store Website &amp; App</a></li>
           <li><a href="on-demand-app-development.html">On-Demand Website &amp; App</a></li><li><a href="food-delivery-app-development.html">Food Delivery Website &amp; App</a></li>
           <li><a href="taxi-booking-app-development.html">Travel / Taxi Booking App</a></li><li><a href="healthcare-app-development.html">Healthcare Appointment App</a></li>
           <li><a href="event-booking-app-development.html">Event Booking App</a></li>
         </ul>
-        <a class="service-explore" href="mobile-application-development.html">Explore Mobile App Development <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="mobile-app-development.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></span><div><div class="seo-card-title">Software Development</div><p>Reliable custom business software that simplifies and automates operations.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></span><div><h3>Software Development</h3><p>Reliable custom business software that simplifies and automates operations.</p></div></div>
         <ul class="service-list">
           <li><a href="erp-software-development.html">ERP Software Development</a></li><li><a href="crm-software-development.html">CRM Software Development</a></li>
           <li><a href="school-college-management-software.html">School / College Management</a></li><li><a href="lead-management-software.html">Lead Management Software</a></li>
@@ -299,11 +297,11 @@
           <li><a href="hospital-clinic-management-software.html">Hospital / Clinic Management</a></li><li><a href="hotel-restaurant-management-software.html">Hotel / Restaurant Management</a></li>
           <li><a href="accounting-finance-software.html">Accounting / Finance Software</a></li>
         </ul>
-        <a class="service-explore" href="software-development.html">Explore Software Development <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="software-development.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i></span><div><div class="seo-card-title">Search Engine Optimization</div><p>Complete SEO solutions that improve rankings, traffic and online authority.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i></span><div><h3>Search Engine Optimization</h3><p>Complete SEO solutions that improve rankings, traffic and online authority.</p></div></div>
         <ul class="service-list">
           <li><a href="local-seo.html">Local SEO</a></li><li><a href="technical-seo.html">Technical SEO</a></li><li><a href="on-page-seo.html">On Page SEO</a></li><li><a href="off-page-seo.html">Off Page SEO</a></li>
           <li><a href="ecommerce-seo.html">eCommerce SEO</a></li><li><a href="wordpress-seo.html">WordPress SEO</a></li><li><a href="shopify-seo.html">Shopify SEO</a></li><li><a href="google-business-profile-optimization.html">Google Business Profile</a></li>
@@ -311,43 +309,43 @@
           <li><a href="link-building.html">Link Building</a></li><li><a href="content-optimization.html">Content Optimization</a></li><li><a href="schema-markup.html">Schema Markup</a></li><li><a href="core-web-vitals.html">Core Web Vitals</a></li>
           <li><a href="website-speed-optimization.html">Website Speed Optimization</a></li><li><a href="international-seo.html">International SEO</a></li>
         </ul>
-        <a class="service-explore" href="seo.html">Explore SEO Services <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="search-engine-optimization.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i></span><div><div class="seo-card-title">Branding &amp; Creative</div><p>Memorable visual communication that gives your brand a distinct identity.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i></span><div><h3>Branding &amp; Creative</h3><p>Memorable visual communication that gives your brand a distinct identity.</p></div></div>
         <ul class="service-list">
           <li><a href="logo-design.html">Logo Design</a></li><li><a href="brand-identity-design.html">Brand Identity Design</a></li><li><a href="business-card-design.html">Business Card Design</a></li><li><a href="brochure-design.html">Brochure Design</a></li>
           <li><a href="flyer-design.html">Flyer Design</a></li><li><a href="banner-design.html">Banner Design</a></li><li><a href="social-media-post-design.html">Social Media Post Design</a></li><li><a href="packaging-design.html">Packaging Design</a></li>
           <li><a href="company-profile-design.html">Company Profile Design</a></li><li><a href="presentation-design.html">Presentation Design</a></li><li><a href="motion-graphics.html">Motion Graphics</a></li><li><a href="video-editing.html">Video Editing</a></li>
           <li><a href="promotional-videos.html">Promotional Videos</a></li><li><a href="product-photography.html">Product Photography</a></li>
         </ul>
-        <a class="service-explore" href="branding-creative.html">Explore Branding Services <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="branding-creative.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></span><div><div class="seo-card-title">eCommerce Solutions</div><p>Secure and scalable online stores that turn visitors into loyal customers.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></span><div><h3>eCommerce Solutions</h3><p>Secure and scalable online stores that turn visitors into loyal customers.</p></div></div>
         <ul class="service-list">
           <li><a href="shopify-store-development.html">Shopify Store Development</a></li><li><a href="woocommerce-development.html">WooCommerce Development</a></li><li><a href="magento-development.html">Magento Development</a></li><li><a href="opencart-development.html">OpenCart Development</a></li>
           <li><a href="multi-vendor-marketplace.html">Multi Vendor Marketplace</a></li><li><a href="b2b-ecommerce-website.html">B2B eCommerce Website</a></li><li><a href="b2c-ecommerce-website.html">B2C eCommerce Website</a></li><li><a href="online-store-development.html">Online Store Development</a></li>
           <li><a href="payment-gateway-integration.html">Payment Gateway Integration</a></li><li><a href="shopping-cart-development.html">Shopping Cart Development</a></li><li><a href="order-management-system.html">Order Management System</a></li><li><a href="inventory-integration.html">Inventory Integration</a></li>
           <li><a href="shipping-api-integration.html">Shipping API Integration</a></li><li><a href="amazon-flipkart-store-setup.html">Amazon / Flipkart Store Setup</a></li>
         </ul>
-        <a class="service-explore" href="ecommerce-solutions.html">Explore eCommerce Solutions <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="ecommerce-solutions.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-robot" aria-hidden="true"></i></span><div><div class="seo-card-title">AI &amp; Automation</div><p>Intelligent automation solutions that save time and improve productivity.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-robot" aria-hidden="true"></i></span><div><h3>AI &amp; Automation</h3><p>Intelligent automation solutions that save time and improve productivity.</p></div></div>
         <ul class="service-list">
           <li><a href="ai-chatbot-development.html">AI Chatbot Development</a></li><li><a href="ai-customer-support-bot.html">AI Customer Support Bot</a></li><li><a href="whatsapp-chatbot.html">WhatsApp Chatbot</a></li><li><a href="voice-bot-development.html">Voice Bot Development</a></li>
           <li><a href="ai-automation-services.html">AI Automation</a></li><li><a href="openai-integration.html">OpenAI Integration</a></li><li><a href="chatgpt-integration.html">ChatGPT Integration</a></li><li><a href="gemini-ai-integration.html">Gemini AI Integration</a></li>
           <li><a href="ai-document-processing.html">AI Document Processing</a></li><li><a href="ai-recommendation-system.html">AI Recommendation System</a></li><li><a href="workflow-automation.html">Workflow Automation</a></li><li><a href="business-process-automation.html">Business Process Automation</a></li>
         </ul>
-        <a class="service-explore" href="ai-automation.html">Explore AI Automation <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="ai-automation.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-object-group" aria-hidden="true"></i></span><div><div class="seo-card-title">UI / UX Design</div><p>Intuitive digital experiences backed by thoughtful research and design.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-object-group" aria-hidden="true"></i></span><div><h3>UI / UX Design</h3><p>Intuitive digital experiences backed by thoughtful research and design.</p></div></div>
         <ul class="service-list">
           <li><a href="ui-ux-design-services.html">UI / UX Design</a></li><li><a href="mobile-app-ui-design.html">Mobile App UI Design</a></li><li><a href="website-ui-design.html">Website UI Design</a></li><li><a href="dashboard-design.html">Dashboard Design</a></li>
           <li><a href="admin-panel-design.html">Admin Panel Design</a></li><li><a href="wireframing-services.html">Wireframing</a></li><li><a href="prototyping-services.html">Prototyping</a></li><li><a href="figma-design-services.html">Figma Design</a></li>
@@ -357,27 +355,59 @@
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-plug" aria-hidden="true"></i></span><div><div class="seo-card-title">API Integration</div><p>Secure third-party integrations that connect your essential business tools.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-plug" aria-hidden="true"></i></span><div><h3>API Integration</h3><p>Secure third-party integrations that connect your essential business tools.</p></div></div>
         <ul class="service-list">
-          <li><a href="payment-gateway-integration.html">Payment API Integration</a></li><li><a href="whatsapp-api.html">WhatsApp API Integration</a></li><li><a href="sms-api-integration.html">SMS API Integration</a></li><li><a href="email-api-integration.html">Email API Integration</a></li>
+          <li><a href="payment-gateway-integration.html">Payment Gateway Integration</a></li><li><a href="whatsapp-api.html">WhatsApp API Integration</a></li><li><a href="sms-api-integration.html">SMS API Integration</a></li><li><a href="email-api-integration.html">Email API Integration</a></li>
           <li><a href="google-maps-api.html">Google Maps API</a></li><li><a href="razorpay-integration.html">Razorpay Integration</a></li><li><a href="stripe-integration.html">Stripe Integration</a></li><li><a href="paypal-integration.html">PayPal Integration</a></li>
           <li><a href="crm-integration.html">CRM Integration</a></li><li><a href="erp-integration.html">ERP Integration</a></li><li><a href="third-party-api-development.html">Third Party API Development</a></li><li><a href="rest-api-development.html">REST API Development</a></li>
           <li><a href="truecaller-verification-integration.html">Truecaller Verification Integration</a></li>
         </ul>
-        <a class="service-explore" href="api-development.html">Explore API Integration <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="api-integration.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
 
       <article class="service-card">
-        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-cloud-arrow-up" aria-hidden="true"></i></span><div><div class="seo-card-title">Cloud &amp; Hosting</div><p>Dependable hosting, deployment and server solutions for your website.</p></div></div>
+        <div class="service-card-head"><span class="service-icon"><i class="fa-solid fa-cloud-arrow-up" aria-hidden="true"></i></span><div><h3>Cloud &amp; Hosting</h3><p>Dependable hosting, deployment and server solutions for your website.</p></div></div>
         <ul class="service-list">
           <li><a href="domain-registration.html">Domain Registration</a></li><li><a href="web-hosting-services.html">Web Hosting Services</a></li><li><a href="vps-hosting.html">VPS Hosting</a></li><li><a href="cloud-hosting-services.html">Cloud Hosting</a></li>
           <li><a href="website-migration.html">Website Migration</a></li><li><a href="cpanel-management.html">cPanel Management</a></li><li><a href="ssl-installation.html">SSL Installation</a></li><li><a href="email-hosting.html">Email Hosting</a></li>
           <li><a href="server-setup.html">Server Setup</a></li><li><a href="hostinger-deployment.html">Hostinger Deployment</a></li>
         </ul>
-        <a class="service-explore" href="cloud-hosting.html">Explore Cloud Hosting <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="service-explore" href="cloud-hosting.html">Explore Service <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </article>
     </div>
-  </div>
+  <!-- Carousel navigation controls start -->
+<div class="service-controls" aria-label="Services carousel controls">
+
+  <button
+    class="service-control service-prev"
+    type="button"
+    aria-label="Previous service"
+  >
+    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+  </button>
+
+  <div
+    class="service-dots"
+    role="tablist"
+    aria-label="Select a service"
+  ></div>
+
+  <button
+    class="service-control service-next"
+    type="button"
+    aria-label="Next service"
+  >
+    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+  </button>
+
+</div>
+
+<p class="service-counter" aria-live="polite">
+  <span>1</span> / 11
+</p>
+<!-- Carousel navigation controls end -->
+
+</div>
 </section>
 
 
@@ -1488,42 +1518,233 @@
   <!--scripts--files-->
   <!-- jQuery first -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Place before </body>. jQuery must load before Owl Carousel. -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- Place this block immediately before </body>. No jQuery/Owl dependency. -->
 <script>
-  $(function () {
-    const $services = $('.service-carousel');
-    if (!$services.length || typeof $.fn.owlCarousel !== 'function') return;
+document.addEventListener("DOMContentLoaded", function () {
+  const section = document.querySelector(".our-services");
 
-    $services.owlCarousel({
-      loop: true,
-      margin: 24,
-      nav: true,
-      dots: true,
-      autoplay: true,
-      autoplayTimeout: 5500,
-      autoplayHoverPause: true,
-      smartSpeed: 650,
-      autoHeight: false,
-      navText: [
-        '<i class="fa-solid fa-chevron-left" aria-hidden="true"></i><span class="visually-hidden">Previous services</span>',
-        '<i class="fa-solid fa-chevron-right" aria-hidden="true"></i><span class="visually-hidden">Next services</span>'
-      ],
-      responsive: {
-        0: { items: 1, margin: 12, stagePadding: 0 },
-        576: { items: 1, margin: 18, stagePadding: 28 },
-        768: { items: 1, margin: 20, stagePadding: 70 },
-        992: { items: 2, margin: 22, stagePadding: 0 },
-        1200: { items: 2, margin: 26, stagePadding: 0 }
-      }
-    });
+  if (!section) return;
 
-    $services.on('keydown', '.owl-dot', function (event) {
-      if (event.key === 'Enter' || event.key === ' ') $(this).trigger('click');
-    });
+  const stage = section.querySelector(".service-coverflow");
+  const cards = Array.from(
+    section.querySelectorAll(".service-coverflow .service-card")
+  );
+
+  const previousButton = section.querySelector(".service-prev");
+  const nextButton = section.querySelector(".service-next");
+  const dotsContainer = section.querySelector(".service-dots");
+  const counterNumber = section.querySelector(".service-counter span");
+
+  if (
+    !stage ||
+    cards.length === 0 ||
+    !previousButton ||
+    !nextButton ||
+    !dotsContainer ||
+    !counterNumber
+  ) {
+    return;
+  }
+
+  let activeIndex = 0;
+  let autoplayInterval = null;
+  let touchStartX = 0;
+
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
+  /* Create card number badges */
+  cards.forEach(function (card, index) {
+    const oldBadge = card.querySelector(".service-number");
+
+    if (oldBadge) {
+      oldBadge.remove();
+    }
+
+    const badge = document.createElement("span");
+
+    badge.className = "service-number";
+    badge.setAttribute("aria-hidden", "true");
+    badge.textContent = String(index + 1).padStart(2, "0");
+
+    card.appendChild(badge);
   });
+
+  /* Create pagination dots */
+  dotsContainer.innerHTML = "";
+
+  const dots = cards.map(function (_, index) {
+    const dot = document.createElement("button");
+
+    dot.type = "button";
+    dot.className = "service-dot";
+    dot.setAttribute("aria-label", "Show service " + (index + 1));
+
+    dot.addEventListener("click", function () {
+      showCard(index);
+      restartAutoplay();
+    });
+
+    dotsContainer.appendChild(dot);
+
+    return dot;
+  });
+
+  function getRelativePosition(cardIndex) {
+    let difference = cardIndex - activeIndex;
+    const halfCards = cards.length / 2;
+
+    if (difference > halfCards) {
+      difference -= cards.length;
+    }
+
+    if (difference < -halfCards) {
+      difference += cards.length;
+    }
+
+    return difference;
+  }
+
+  function showCard(newIndex) {
+    activeIndex = (newIndex + cards.length) % cards.length;
+
+    cards.forEach(function (card, cardIndex) {
+      const position = getRelativePosition(cardIndex);
+
+      card.classList.remove(
+        "is-active",
+        "is-prev",
+        "is-next",
+        "is-far-prev",
+        "is-far-next",
+        "is-hidden"
+      );
+
+      if (position === 0) {
+        card.classList.add("is-active");
+      } else if (position === -1) {
+        card.classList.add("is-prev");
+      } else if (position === 1) {
+        card.classList.add("is-next");
+      } else if (position === -2) {
+        card.classList.add("is-far-prev");
+      } else if (position === 2) {
+        card.classList.add("is-far-next");
+      } else {
+        card.classList.add("is-hidden");
+      }
+
+      const isActive = position === 0;
+
+      card.setAttribute("aria-hidden", String(!isActive));
+
+      card.querySelectorAll("a").forEach(function (link) {
+        link.tabIndex = isActive ? 0 : -1;
+      });
+    });
+
+    dots.forEach(function (dot, dotIndex) {
+      const isSelected = dotIndex === activeIndex;
+
+      /* Keep the reference design's compact five-dot window. */
+      const windowStart = Math.max(
+        0,
+        Math.min(activeIndex - 2, cards.length - 5)
+      );
+      const isInWindow = dotIndex >= windowStart && dotIndex < windowStart + 5;
+
+      dot.classList.toggle("is-active", isSelected);
+      dot.classList.toggle("is-window-hidden", !isInWindow);
+      dot.setAttribute("aria-current", isSelected ? "true" : "false");
+      dot.tabIndex = isInWindow ? 0 : -1;
+    });
+
+    counterNumber.textContent = activeIndex + 1;
+  }
+
+  function showPreviousCard() {
+    showCard(activeIndex - 1);
+    restartAutoplay();
+  }
+
+  function showNextCard() {
+    showCard(activeIndex + 1);
+    restartAutoplay();
+  }
+
+  function stopAutoplay() {
+    window.clearInterval(autoplayInterval);
+    autoplayInterval = null;
+  }
+
+  function startAutoplay() {
+    if (prefersReducedMotion) return;
+
+    stopAutoplay();
+
+    autoplayInterval = window.setInterval(function () {
+      showCard(activeIndex + 1);
+    }, 6000);
+  }
+
+  function restartAutoplay() {
+    stopAutoplay();
+    startAutoplay();
+  }
+
+  previousButton.addEventListener("click", showPreviousCard);
+  nextButton.addEventListener("click", showNextCard);
+
+  /* Keyboard navigation */
+  section.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowLeft") {
+      showPreviousCard();
+    }
+
+    if (event.key === "ArrowRight") {
+      showNextCard();
+    }
+  });
+
+  /* Mobile swipe start */
+  stage.addEventListener(
+    "touchstart",
+    function (event) {
+      touchStartX = event.changedTouches[0].clientX;
+    },
+    { passive: true }
+  );
+
+  /* Mobile swipe end */
+  stage.addEventListener(
+    "touchend",
+    function (event) {
+      const touchEndX = event.changedTouches[0].clientX;
+      const swipeDistance = touchEndX - touchStartX;
+
+      if (Math.abs(swipeDistance) < 45) return;
+
+      if (swipeDistance > 0) {
+        showPreviousCard();
+      } else {
+        showNextCard();
+      }
+    },
+    { passive: true }
+  );
+
+  /* Pause autoplay on hover/focus */
+  section.addEventListener("mouseenter", stopAutoplay);
+  section.addEventListener("mouseleave", startAutoplay);
+  section.addEventListener("focusin", stopAutoplay);
+  section.addEventListener("focusout", startAutoplay);
+
+  showCard(0);
+  startAutoplay();
+});
 </script>
+
 <!-- indstry we serve start section home page  -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
