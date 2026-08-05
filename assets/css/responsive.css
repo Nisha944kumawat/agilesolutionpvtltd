@@ -991,3 +991,51 @@ header .navbar-nav .nav-link {
     max-width: 1700px !important;
   }
 }
+
+/* SEO semantic heading update: visual appearance remains unchanged. */
+.heading-tittle .section-eyebrow {
+  position: relative;
+  margin-bottom: 8px;
+  color: #5875dd;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.heading-tittle .section-eyebrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  left: 0;
+  width: 55px;
+  height: 3px;
+  margin: auto;
+  background-color: var(--bg-color);
+}
+
+.trusted-customer-heading {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.portfolio-head .portfolio-item-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.testimonial-name {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.contact-box .contact-form-title {
+  margin-top: 0;
+  color: #080b39;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
