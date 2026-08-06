@@ -32,6 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
     ]},
     { title: "API Integration", icon: "fa-solid fa-plug", href: "api-development.html", items: [
       ["Payment Gateway Integration", "payment-gateway-integration.html"], ["WhatsApp API Integration", "whatsapp-api.html"], ["SMS API Integration", "sms-api-integration.html"], ["Email API Integration", "email-api-integration.html"], ["Google Maps API", "google-maps-api.html"], ["Razorpay Integration", "razorpay-integration.html"], ["Stripe Integration", "stripe-integration.html"], ["PayPal Integration", "paypal-integration.html"], ["CRM Integration", "crm-integration.html"], ["ERP Integration", "erp-integration.html"], ["Third Party API Development", "third-party-api-development.html"], ["REST API Development", "rest-api-development.html"] ,["Truecaller Verification Integration","truecaller-verification-integration.html"]
+    ]},
+    { title: "Bulk Marketing", icon: "fa-solid fa-envelopes-bulk", href: "bulk-marketing.html", items: [
+      ["WhatsApp Marketing", "whatsapp-marketing.html"], ["Email Marketing", "email-marketing.html"], [" RCS Messaging", "rcs-messaging.html"], ["Bulk Voice Calls", "bulk-voice-calls.html"], ["SMS Marketing", "sms-marketing.html"]
     ]}
   ];
 
