@@ -1,12 +1,12 @@
 (function () {
   const siteName = "Agile Edtech Solutions Pvt Ltd";
   const siteUrl = window.location.origin;
-  const ogImage = "https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png";
+  const ogImage =
+    "https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png";
 
-  const defaultTitle =
-    "Web Development & Digital Marketing Company Jaipur";
+  const defaultTitle = "Web Development & Digital Marketing Company Jaipur";
   const defaultDescription =
-    "Jaipur web development and digital marketing company for SEO, Google Ads, custom software and mobile apps. Call Agile Solutions for a free consultation.";
+    "Agile Solutions is a leading web development and digital marketing company in Jaipur, offering SEO, Google Ads, custom software and mobile app development.";
   const defaultKeywords =
     "Website Development Company in Jaipur, Website Designer in Jaipur, Digital Marketing Company Jaipur, SEO Company Jaipur, Google Ads Jaipur, Facebook Ads Jaipur, Agile Edtech Solutions Pvt Ltd";
 
@@ -17,7 +17,8 @@
       keywords: defaultKeywords,
     },
     "android-app-development.html": {
-      title: "Android App Development Company in Jaipur | Agile Edtech Solutions",
+      title:
+        "Android App Development Company in Jaipur | Agile Edtech Solutions",
       description:
         "Build high-performance Android apps with Agile Edtech Solutions Pvt Ltd in Jaipur, from UI/UX and coding to testing, launch, and ongoing support.",
       keywords:
@@ -31,21 +32,24 @@
         "About Agile Edtech Solutions, Digital Marketing Company Jaipur, Website Development Company Jaipur, SEO and Google Ads Jaipur",
     },
     "api-development.html": {
-      title: "API Development & Integration Services in Jaipur | Agile Edtech Solutions",
+      title:
+        "API Development & Integration Services in Jaipur | Agile Edtech Solutions",
       description:
         "Secure API development and third-party integration services in Jaipur for websites, apps, CRM, ERP, and automation workflows.",
       keywords:
         "API Development Company Jaipur, API Integration Services Jaipur, REST API Development Jaipur, Third Party API Integration, Agile Edtech Solutions",
     },
     "app-store-optimization.html": {
-      title: "App Store Optimization (ASO) Services in Jaipur | Agile Edtech Solutions",
+      title:
+        "App Store Optimization (ASO) Services in Jaipur | Agile Edtech Solutions",
       description:
         "Increase app visibility and installs with ASO services in Jaipur including keyword optimization, creative testing, and conversion-focused listing updates.",
       keywords:
         "ASO Services Jaipur, App Store Optimization Jaipur, Increase App Downloads, Play Store Optimization, App Marketing Jaipur",
     },
     "bulk-services.html": {
-      title: "Bulk SMS, Calls & WhatsApp Marketing in Jaipur | Agile Edtech Solutions",
+      title:
+        "Bulk SMS, Calls & WhatsApp Marketing in Jaipur | Agile Edtech Solutions",
       description:
         "Run bulk communication campaigns with SMS, voice calls, and WhatsApp marketing solutions in Jaipur to improve reach, response, and lead generation.",
       keywords:
@@ -59,7 +63,8 @@
         "RCS Service Provider Jaipur, RCS Business Messaging Jaipur, RCS Marketing Services, Rich Communication Services for Business, RCS API Integration, Verified Business Messaging Jaipur",
     },
     "contact.html": {
-      title: "Contact Agile Edtech Solutions Pvt Ltd | Website Designer in Jaipur",
+      title:
+        "Contact Agile Edtech Solutions Pvt Ltd | Website Designer in Jaipur",
       description:
         "Contact Agile Edtech Solutions Pvt Ltd, Jaipur for website design, SEO, Google Ads, Facebook Ads, and digital marketing services. Call +91-8005677079 or WhatsApp now.",
       keywords:
@@ -73,35 +78,40 @@
         "CRM Development Company Jaipur, Custom CRM Software Jaipur, Sales CRM Jaipur, Lead Management Software Jaipur, Agile Edtech Solutions",
     },
     "custom-software.html": {
-      title: "Custom Software Development Company in Jaipur | Agile Edtech Solutions",
+      title:
+        "Custom Software Development Company in Jaipur | Agile Edtech Solutions",
       description:
         "End-to-end custom software development in Jaipur for startups and enterprises, including planning, architecture, development, deployment, and support.",
       keywords:
         "Custom Software Development Jaipur, Software Company Jaipur, Enterprise Software Jaipur, Business Software Development Jaipur, Agile Edtech Solutions",
     },
     "digital-marketing.html": {
-      title: "Digital Marketing Company in Jaipur | Agile Edtech Solutions Pvt Ltd",
+      title:
+        "Digital Marketing Company in Jaipur | Agile Edtech Solutions Pvt Ltd",
       description:
         "Performance-focused digital marketing in Jaipur including SEO, Google Ads, Facebook Ads, and lead generation campaigns for startups and growing businesses.",
       keywords:
         "Digital Marketing Company Jaipur, SEO Services Jaipur, Google Ads Agency Jaipur, Facebook Ads Agency Jaipur, Performance Marketing Jaipur",
     },
     "ecommerce.html": {
-      title: "E-Commerce Website Development in Jaipur | Agile Edtech Solutions",
+      title:
+        "E-Commerce Website Development in Jaipur | Agile Edtech Solutions",
       description:
         "Launch and scale your online store with e-commerce website development in Jaipur, including payment gateway integration and conversion-driven design.",
       keywords:
         "Ecommerce Website Development Jaipur, Online Store Development Jaipur, Shopify Development Jaipur, WooCommerce Development Jaipur, Ecommerce Company Jaipur",
     },
     "facebook-ads.html": {
-      title: "Facebook & Instagram Ads Agency in Jaipur | Agile Edtech Solutions",
+      title:
+        "Facebook & Instagram Ads Agency in Jaipur | Agile Edtech Solutions",
       description:
         "Drive qualified leads and sales with Facebook and Instagram ads services in Jaipur, including targeting strategy, creatives, and performance optimization.",
       keywords:
         "Facebook Ads Jaipur, Instagram Ads Jaipur, Meta Ads Agency Jaipur, Social Media Ads Jaipur, Lead Ads Jaipur",
     },
     "google-business.html": {
-      title: "Google Business Profile Optimization in Jaipur | Agile Edtech Solutions",
+      title:
+        "Google Business Profile Optimization in Jaipur | Agile Edtech Solutions",
       description:
         "Improve local visibility with Google Business Profile setup and optimization in Jaipur, including profile updates, categories, posts, and local ranking support.",
       keywords:
@@ -115,7 +125,8 @@
         "iOS App Development Company Jaipur, iPhone App Development Jaipur, Swift App Development Jaipur, Mobile App Developer Jaipur, Agile Edtech Solutions",
     },
     "job-opportunity.html": {
-      title: "Join Our Team | Job Opportunities at Agile Edtech Solutions Jaipur",
+      title:
+        "Join Our Team | Job Opportunities at Agile Edtech Solutions Jaipur",
       description:
         "Explore current job openings at Agile Edtech Solutions Pvt Ltd in Jaipur across development, sales, marketing, design, SEO, and content roles. Apply now.",
       keywords:
@@ -171,7 +182,8 @@
         "Privacy Policy Agile Edtech Solutions, Data Privacy Policy Jaipur, Personal Data Policy",
     },
     "website-design-development.html": {
-      title: "Website Design & Development Company in Jaipur | Agile Edtech Solutions",
+      title:
+        "Website Design & Development Company in Jaipur | Agile Edtech Solutions",
       description:
         "Professional website design and development services in Jaipur for business websites, custom portals, and conversion-focused landing pages.",
       keywords:
@@ -185,7 +197,8 @@
         "Google Shopping Ads Jaipur, Shopping Campaign Management Jaipur, Product Feed Optimization Jaipur, Ecommerce Ads Jaipur, PLA Ads Jaipur",
     },
     "smo.html": {
-      title: "Social Media Management Company in Jaipur | Agile Edtech Solutions",
+      title:
+        "Social Media Management Company in Jaipur | Agile Edtech Solutions",
       description:
         "Build your brand with social media management services in Jaipur for content planning, audience growth, engagement, and platform-wise optimization.",
       keywords:
@@ -199,7 +212,8 @@
         "Terms and Conditions Agile Edtech Solutions, Website Terms Jaipur, Service Terms",
     },
     "web-development.html": {
-      title: "Web Development Company in Jaipur | Agile Edtech Solutions Pvt Ltd",
+      title:
+        "Web Development Company in Jaipur | Agile Edtech Solutions Pvt Ltd",
       description:
         "Build fast, scalable, SEO-friendly websites with Agile Edtech Solutions Pvt Ltd, a trusted web development company in Jaipur.",
       keywords:
@@ -213,7 +227,8 @@
         "WhatsApp API Provider Jaipur, WhatsApp Business API Jaipur, WhatsApp Automation Jaipur, WhatsApp Marketing Jaipur, Meta API Jaipur",
     },
     "wordpress-shopify.html": {
-      title: "WordPress & Shopify Development in Jaipur | Agile Edtech Solutions",
+      title:
+        "WordPress & Shopify Development in Jaipur | Agile Edtech Solutions",
       description:
         "Custom WordPress and Shopify development in Jaipur for fast, SEO-friendly, conversion-focused websites and e-commerce stores.",
       keywords:
@@ -746,157 +761,300 @@
 
   const industryPageConfigs = {
     "digital-marketing-agency-grocery.html": {
-      title: "Best Digital Marketing Agency for Grocery Stores | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Grocery Stores | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for grocery stores, supermarkets and online grocery brands with SEO, Google Ads, local SEO and hyperlocal growth strategies.",
       keywords:
         "Best Digital Marketing Agency for Grocery Stores, Digital Marketing Company for Supermarkets, Grocery Store SEO Services, Local SEO for Grocery Business, Grocery Marketing Agency India",
       service: "Grocery Industry Digital Marketing Services",
       faqs: [
-        { q: "Why does a grocery business need local SEO?", a: "Nearby searches and map visibility strongly influence walk-ins, calls, and grocery delivery enquiries." },
-        { q: "Can you market both offline stores and online grocery brands?", a: "Yes. We create separate strategies for footfall-led stores and delivery-first grocery businesses." },
-        { q: "Do you support seasonal grocery campaigns?", a: "Yes. We plan campaigns for festive demand, subscriptions, category offers, and recurring purchases." },
-        { q: "How do you track results for grocery campaigns?", a: "We track calls, map actions, orders, enquiry intent, and repeat-customer engagement." },
+        {
+          q: "Why does a grocery business need local SEO?",
+          a: "Nearby searches and map visibility strongly influence walk-ins, calls, and grocery delivery enquiries.",
+        },
+        {
+          q: "Can you market both offline stores and online grocery brands?",
+          a: "Yes. We create separate strategies for footfall-led stores and delivery-first grocery businesses.",
+        },
+        {
+          q: "Do you support seasonal grocery campaigns?",
+          a: "Yes. We plan campaigns for festive demand, subscriptions, category offers, and recurring purchases.",
+        },
+        {
+          q: "How do you track results for grocery campaigns?",
+          a: "We track calls, map actions, orders, enquiry intent, and repeat-customer engagement.",
+        },
       ],
     },
     "digital-marketing-agency-education.html": {
-      title: "Best Digital Marketing Agency for Educational Institutes | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Educational Institutes | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for educational institutes, schools, colleges and universities with SEO, lead generation, Google Ads and admission marketing solutions.",
       keywords:
         "Best Digital Marketing Agency for Educational Institutes, Best Digital Marketing Company for School Colleges and Universities, Education Marketing Agency, SEO for Schools, Admission Lead Generation Company",
       service: "Education Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you market schools, colleges and universities?", a: "Yes. We tailor campaigns for schools, higher education institutes, universities, and coaching brands." },
-        { q: "Can you help us rank for institute and course keywords?", a: "Yes. We optimize websites and landing pages for admissions, courses, campuses, and location-specific searches." },
-        { q: "How do you improve admission lead quality?", a: "We refine targeting, landing pages, messaging, and follow-up journeys to attract more relevant prospects." },
-        { q: "Do you support admission-season campaigns?", a: "Yes. We build campaigns around admissions open, scholarships, counselling, and intake deadlines." },
+        {
+          q: "Do you market schools, colleges and universities?",
+          a: "Yes. We tailor campaigns for schools, higher education institutes, universities, and coaching brands.",
+        },
+        {
+          q: "Can you help us rank for institute and course keywords?",
+          a: "Yes. We optimize websites and landing pages for admissions, courses, campuses, and location-specific searches.",
+        },
+        {
+          q: "How do you improve admission lead quality?",
+          a: "We refine targeting, landing pages, messaging, and follow-up journeys to attract more relevant prospects.",
+        },
+        {
+          q: "Do you support admission-season campaigns?",
+          a: "Yes. We build campaigns around admissions open, scholarships, counselling, and intake deadlines.",
+        },
       ],
     },
     "digital-marketing-agency-ecommerce.html": {
-      title: "Best Digital Marketing Agency for eCommerce Brands | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for eCommerce Brands | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for eCommerce websites, online stores and D2C brands with SEO, shopping ads, performance marketing and conversion optimization.",
       keywords:
         "Best Digital Marketing Agency for eCommerce, eCommerce SEO Company, Digital Marketing Company for Online Store, D2C Marketing Agency, Shopping Ads Agency India",
       service: "eCommerce Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you provide both SEO and paid marketing for eCommerce stores?", a: "Yes. We combine organic SEO, shopping ads, search campaigns, and remarketing to grow online sales." },
-        { q: "Can you work with Shopify and WooCommerce?", a: "Yes. We support Shopify, WooCommerce, and custom eCommerce websites." },
-        { q: "Do you optimize product and category pages?", a: "Yes. We improve structure, metadata, content, trust signals, and internal linking on key pages." },
-        { q: "How do you measure eCommerce results?", a: "We track revenue, ROAS, conversion rate, cart recovery, and repeat purchase behaviour." },
+        {
+          q: "Do you provide both SEO and paid marketing for eCommerce stores?",
+          a: "Yes. We combine organic SEO, shopping ads, search campaigns, and remarketing to grow online sales.",
+        },
+        {
+          q: "Can you work with Shopify and WooCommerce?",
+          a: "Yes. We support Shopify, WooCommerce, and custom eCommerce websites.",
+        },
+        {
+          q: "Do you optimize product and category pages?",
+          a: "Yes. We improve structure, metadata, content, trust signals, and internal linking on key pages.",
+        },
+        {
+          q: "How do you measure eCommerce results?",
+          a: "We track revenue, ROAS, conversion rate, cart recovery, and repeat purchase behaviour.",
+        },
       ],
     },
     "digital-marketing-agency-healthcare.html": {
-      title: "Best Digital Marketing Agency for Healthcare Institutions | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Healthcare Institutions | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for doctors, clinics, hospitals and healthcare institutions with SEO, local SEO, Google Ads and patient lead generation solutions.",
       keywords:
         "Best Digital Marketing Agency for Healthcare Institutions, Best Digital Marketing Agency for Doctors Clinic and Hospitals, Healthcare SEO Company, Hospital Marketing Agency, Clinic Lead Generation Company",
       service: "Healthcare Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you market doctors, clinics and hospitals?", a: "Yes. We tailor campaigns for individual practitioners, clinics, hospitals, and diagnostic businesses." },
-        { q: "Can you help my clinic rank locally on Google?", a: "Yes. We improve Google Business visibility, local pages, and location-focused SEO." },
-        { q: "Why do healthcare landing pages need special structure?", a: "Patients compare expertise, convenience, credibility, and clarity before taking action." },
-        { q: "How do you track healthcare results?", a: "We track calls, appointment forms, map actions, and service-wise enquiry trends." },
+        {
+          q: "Do you market doctors, clinics and hospitals?",
+          a: "Yes. We tailor campaigns for individual practitioners, clinics, hospitals, and diagnostic businesses.",
+        },
+        {
+          q: "Can you help my clinic rank locally on Google?",
+          a: "Yes. We improve Google Business visibility, local pages, and location-focused SEO.",
+        },
+        {
+          q: "Why do healthcare landing pages need special structure?",
+          a: "Patients compare expertise, convenience, credibility, and clarity before taking action.",
+        },
+        {
+          q: "How do you track healthcare results?",
+          a: "We track calls, appointment forms, map actions, and service-wise enquiry trends.",
+        },
       ],
     },
     "digital-marketing-agency-restaurant.html": {
-      title: "Best Digital Marketing Agency for Restaurants | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Restaurants | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for restaurants, cafes, cloud kitchens and food brands with local SEO, social media marketing, Google Ads and growth campaigns.",
       keywords:
         "Best Digital Marketing Agency for Restaurants, Restaurant Marketing Agency, Digital Marketing Company for Cafes, Local SEO for Restaurants, Cloud Kitchen Marketing Agency",
       service: "Restaurant Industry Digital Marketing Services",
       faqs: [
-        { q: "Can you market both dine-in restaurants and cloud kitchens?", a: "Yes. We build separate growth strategies for dine-in brands, cafes, QSR chains, and delivery-first kitchens." },
-        { q: "Do restaurants benefit from local SEO?", a: "Yes. Restaurant decisions are highly local and map visibility has a major effect on demand." },
-        { q: "Can you promote menu launches and special nights?", a: "Yes. We run campaigns for brunches, events, festive menus, and new launches." },
-        { q: "How do you track restaurant marketing performance?", a: "We track calls, directions, bookings, order intent, and campaign response." },
+        {
+          q: "Can you market both dine-in restaurants and cloud kitchens?",
+          a: "Yes. We build separate growth strategies for dine-in brands, cafes, QSR chains, and delivery-first kitchens.",
+        },
+        {
+          q: "Do restaurants benefit from local SEO?",
+          a: "Yes. Restaurant decisions are highly local and map visibility has a major effect on demand.",
+        },
+        {
+          q: "Can you promote menu launches and special nights?",
+          a: "Yes. We run campaigns for brunches, events, festive menus, and new launches.",
+        },
+        {
+          q: "How do you track restaurant marketing performance?",
+          a: "We track calls, directions, bookings, order intent, and campaign response.",
+        },
       ],
     },
     "digital-marketing-agency-real-estate.html": {
-      title: "Best Digital Marketing Agency for Real Estate | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Real Estate | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for real estate developers, builders and brokers with SEO, lead generation, project landing pages and paid campaigns.",
       keywords:
         "Best Digital Marketing Agency for Real Estate, Real Estate Marketing Agency, Property Lead Generation Company, SEO for Real Estate Developers, Digital Marketing Company for Builders",
       service: "Real Estate Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you market builders and developers?", a: "Yes. We work with developers, brokers, consultants, and project marketers." },
-        { q: "Can you run campaigns for multiple projects?", a: "Yes. We create separate landing pages and campaign structures for each project or location." },
-        { q: "How do you improve real estate lead quality?", a: "We refine targeting, messaging, project pages, and remarketing to attract more serious buyers." },
-        { q: "Do you support local property SEO?", a: "Yes. We optimize for city, locality, project, and property-type search demand." },
+        {
+          q: "Do you market builders and developers?",
+          a: "Yes. We work with developers, brokers, consultants, and project marketers.",
+        },
+        {
+          q: "Can you run campaigns for multiple projects?",
+          a: "Yes. We create separate landing pages and campaign structures for each project or location.",
+        },
+        {
+          q: "How do you improve real estate lead quality?",
+          a: "We refine targeting, messaging, project pages, and remarketing to attract more serious buyers.",
+        },
+        {
+          q: "Do you support local property SEO?",
+          a: "Yes. We optimize for city, locality, project, and property-type search demand.",
+        },
       ],
     },
     "digital-marketing-agency-tour-travels.html": {
-      title: "Best Digital Marketing Agency for Tour and Travel Companies | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Tour and Travel Companies | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for tour and travel companies, travel agents and holiday brands with SEO, lead generation and paid campaigns.",
       keywords:
         "Best Digital Marketing Agency for Tour and Travel Companies, Travel Marketing Agency, SEO for Travel Agents, Holiday Package Lead Generation, Digital Marketing Company for Travel Business",
       service: "Travel Industry Digital Marketing Services",
       faqs: [
-        { q: "Can you market domestic and international travel packages?", a: "Yes. We support domestic tours, international packages, group trips, and niche travel offerings." },
-        { q: "Do travel companies benefit from SEO?", a: "Yes. Destination and package searches are highly intent-driven, which makes SEO very valuable." },
-        { q: "Can you run seasonal travel campaigns?", a: "Yes. We plan campaigns around holidays, summers, winters, and festival travel periods." },
-        { q: "How do you track travel lead quality?", a: "We track calls, forms, WhatsApp chats, and package-specific enquiry trends." },
+        {
+          q: "Can you market domestic and international travel packages?",
+          a: "Yes. We support domestic tours, international packages, group trips, and niche travel offerings.",
+        },
+        {
+          q: "Do travel companies benefit from SEO?",
+          a: "Yes. Destination and package searches are highly intent-driven, which makes SEO very valuable.",
+        },
+        {
+          q: "Can you run seasonal travel campaigns?",
+          a: "Yes. We plan campaigns around holidays, summers, winters, and festival travel periods.",
+        },
+        {
+          q: "How do you track travel lead quality?",
+          a: "We track calls, forms, WhatsApp chats, and package-specific enquiry trends.",
+        },
       ],
     },
     "digital-marketing-agency-transport.html": {
-      title: "Best Digital Marketing Agency for Transport Companies | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Transport Companies | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for transport companies, logistics services and fleet businesses with SEO, lead generation and B2B growth campaigns.",
       keywords:
         "Best Digital Marketing Agency for Transport Companies, Logistics Marketing Agency, SEO for Transport Business, Lead Generation for Logistics Company, Digital Marketing Company for Fleet Services",
       service: "Transport Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you market logistics and transport companies?", a: "Yes. We support transport firms, cargo businesses, and logistics providers with SEO and lead generation." },
-        { q: "Can you generate B2B leads for transport services?", a: "Yes. We design campaigns around route, industry, load type, and commercial enquiry intent." },
-        { q: "Do transport companies benefit from SEO?", a: "Yes. Buyers often search by route, city, and service requirement, which makes SEO highly relevant." },
-        { q: "How do you measure transport campaign results?", a: "We track calls, quote requests, form submissions, and enquiry quality by service line." },
+        {
+          q: "Do you market logistics and transport companies?",
+          a: "Yes. We support transport firms, cargo businesses, and logistics providers with SEO and lead generation.",
+        },
+        {
+          q: "Can you generate B2B leads for transport services?",
+          a: "Yes. We design campaigns around route, industry, load type, and commercial enquiry intent.",
+        },
+        {
+          q: "Do transport companies benefit from SEO?",
+          a: "Yes. Buyers often search by route, city, and service requirement, which makes SEO highly relevant.",
+        },
+        {
+          q: "How do you measure transport campaign results?",
+          a: "We track calls, quote requests, form submissions, and enquiry quality by service line.",
+        },
       ],
     },
     "digital-marketing-agency-event.html": {
-      title: "Best Digital Marketing Agency for Event Management Companies | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Event Management Companies | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for event management companies, wedding planners and event brands with SEO, lead generation and social media campaigns.",
       keywords:
         "Best Digital Marketing Agency for Event Management Companies, Event Marketing Agency, Wedding Planner Marketing Company, SEO for Event Planner, Event Lead Generation Agency",
       service: "Event Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you provide digital marketing for wedding and event planners?", a: "Yes. We support wedding planners, event agencies, decorators, and corporate event brands." },
-        { q: "Can you help event businesses get premium enquiries?", a: "Yes. We improve targeting, landing pages, and positioning to attract better-fit clients." },
-        { q: "Do event businesses need social media marketing?", a: "Yes. Events are highly visual, so social content is a major discovery and trust channel." },
-        { q: "How do you track event marketing performance?", a: "We track calls, quote forms, consultation requests, and campaign-level enquiry quality." },
+        {
+          q: "Do you provide digital marketing for wedding and event planners?",
+          a: "Yes. We support wedding planners, event agencies, decorators, and corporate event brands.",
+        },
+        {
+          q: "Can you help event businesses get premium enquiries?",
+          a: "Yes. We improve targeting, landing pages, and positioning to attract better-fit clients.",
+        },
+        {
+          q: "Do event businesses need social media marketing?",
+          a: "Yes. Events are highly visual, so social content is a major discovery and trust channel.",
+        },
+        {
+          q: "How do you track event marketing performance?",
+          a: "We track calls, quote forms, consultation requests, and campaign-level enquiry quality.",
+        },
       ],
     },
     "digital-marketing-agency-fintech.html": {
-      title: "Best Digital Marketing Agency for Fintech Startups | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for Fintech Startups | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for fintech startups, financial platforms and digital finance brands with SEO, paid growth and conversion-focused landing pages.",
       keywords:
         "Best Digital Marketing Agency for Fintech Startups, Fintech Marketing Agency, SEO for Finance Company, Digital Marketing Company for Financial Services, Fintech Lead Generation Company",
       service: "Fintech Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you provide digital marketing for fintech startups?", a: "Yes. We work with fintech, insurtech, lending, payments, and financial platform businesses." },
-        { q: "Can you help explain complex fintech products better?", a: "Yes. We create clear landing pages and educational content that improve conversion confidence." },
-        { q: "Does fintech SEO help growth?", a: "Yes. Users search for financial solutions, comparisons, and educational content before they convert." },
-        { q: "How do you measure fintech marketing results?", a: "We track qualified signups, demos, lead quality, and onboarding-related conversion trends." },
+        {
+          q: "Do you provide digital marketing for fintech startups?",
+          a: "Yes. We work with fintech, insurtech, lending, payments, and financial platform businesses.",
+        },
+        {
+          q: "Can you help explain complex fintech products better?",
+          a: "Yes. We create clear landing pages and educational content that improve conversion confidence.",
+        },
+        {
+          q: "Does fintech SEO help growth?",
+          a: "Yes. Users search for financial solutions, comparisons, and educational content before they convert.",
+        },
+        {
+          q: "How do you measure fintech marketing results?",
+          a: "We track qualified signups, demos, lead quality, and onboarding-related conversion trends.",
+        },
       ],
     },
     "digital-marketing-agency-on-demand.html": {
-      title: "Best Digital Marketing Agency for On-Demand Apps | Agile Edtech Solutions",
+      title:
+        "Best Digital Marketing Agency for On-Demand Apps | Agile Edtech Solutions",
       description:
         "Agile Edtech Solutions is a best digital marketing agency for on-demand apps, service aggregators and instant booking platforms with SEO, app growth and lead generation campaigns.",
       keywords:
         "Best Digital Marketing Agency for On-Demand Apps, On-Demand App Marketing Agency, SEO for Service Aggregator Platform, App Growth Company for On Demand Services, Lead Generation for Booking Platform",
       service: "On-Demand Industry Digital Marketing Services",
       faqs: [
-        { q: "Do you market on-demand apps and booking platforms?", a: "Yes. We support on-demand startups, aggregator businesses, and instant-booking platforms." },
-        { q: "Can you help improve app installs and first bookings?", a: "Yes. We work on acquisition and activation together so installs turn into platform usage." },
-        { q: "Do on-demand businesses need local SEO?", a: "Yes. Local discovery and service-area visibility are major drivers of bookings." },
-        { q: "How do you track on-demand growth results?", a: "We track installs, signups, activation, bookings, repeat usage, and campaign efficiency." },
+        {
+          q: "Do you market on-demand apps and booking platforms?",
+          a: "Yes. We support on-demand startups, aggregator businesses, and instant-booking platforms.",
+        },
+        {
+          q: "Can you help improve app installs and first bookings?",
+          a: "Yes. We work on acquisition and activation together so installs turn into platform usage.",
+        },
+        {
+          q: "Do on-demand businesses need local SEO?",
+          a: "Yes. Local discovery and service-area visibility are major drivers of bookings.",
+        },
+        {
+          q: "How do you track on-demand growth results?",
+          a: "We track installs, signups, activation, bookings, repeat usage, and campaign efficiency.",
+        },
       ],
     },
   };
@@ -914,200 +1072,412 @@
   const keywordLandingConfigs = {
     "advertising-agency-jaipur.html": {
       title: "Advertising Agency in Jaipur | Google Ads and Creative Campaigns",
-      description: "Agile Edtech Solutions is an advertising agency in Jaipur offering Google Ads, Meta Ads, creative strategy, and performance-led campaign management for business growth.",
-      keywords: "advertising agency in jaipur, ad agency in jaipur, advertisement agency near me, google ads agency jaipur, creative advertising company jaipur",
+      description:
+        "Agile Edtech Solutions is an advertising agency in Jaipur offering Google Ads, Meta Ads, creative strategy, and performance-led campaign management for business growth.",
+      keywords:
+        "advertising agency in jaipur, ad agency in jaipur, advertisement agency near me, google ads agency jaipur, creative advertising company jaipur",
       service: "Advertising Agency Services in Jaipur",
       faqs: [
-        { q: "What does your advertising agency in Jaipur help with?", a: "We help with Google Ads, Meta Ads, campaign strategy, creative planning, landing pages, and conversion-focused advertising." },
-        { q: "Do you manage both ad creatives and ad performance?", a: "Yes. We support both campaign strategy and the messaging or creative needed to improve response quality." },
-        { q: "Can you run local Jaipur business campaigns?", a: "Yes. We run local, regional, and broader campaigns based on your business goals and service areas." },
+        {
+          q: "What does your advertising agency in Jaipur help with?",
+          a: "We help with Google Ads, Meta Ads, campaign strategy, creative planning, landing pages, and conversion-focused advertising.",
+        },
+        {
+          q: "Do you manage both ad creatives and ad performance?",
+          a: "Yes. We support both campaign strategy and the messaging or creative needed to improve response quality.",
+        },
+        {
+          q: "Can you run local Jaipur business campaigns?",
+          a: "Yes. We run local, regional, and broader campaigns based on your business goals and service areas.",
+        },
       ],
     },
     "android-app-development-company-jaipur.html": {
-      title: "Android App Development Company in Jaipur | Agile Edtech Solutions",
-      description: "Looking for an Android app development company in Jaipur? Agile Edtech Solutions builds scalable Android apps with UI, API integration, testing, and launch support.",
-      keywords: "android app development company jaipur, android app developer jaipur, mobile app development company jaipur, android application development jaipur",
+      title:
+        "Android App Development Company in Jaipur | Agile Edtech Solutions",
+      description:
+        "Looking for an Android app development company in Jaipur? Agile Edtech Solutions builds scalable Android apps with UI, API integration, testing, and launch support.",
+      keywords:
+        "android app development company jaipur, android app developer jaipur, mobile app development company jaipur, android application development jaipur",
       service: "Android App Development Company in Jaipur",
       faqs: [
-        { q: "Do you build custom Android apps for Jaipur businesses?", a: "Yes. We develop custom Android applications for startups, SMEs, and growing brands based on business use case and scale." },
-        { q: "Do you support Play Store launch?", a: "Yes. We help with testing, listing setup, screenshots, and launch readiness for the Play Store." },
-        { q: "Can you integrate APIs and admin panels?", a: "Yes. We support API integration, dashboards, notifications, and backend workflows as part of app delivery." },
+        {
+          q: "Do you build custom Android apps for Jaipur businesses?",
+          a: "Yes. We develop custom Android applications for startups, SMEs, and growing brands based on business use case and scale.",
+        },
+        {
+          q: "Do you support Play Store launch?",
+          a: "Yes. We help with testing, listing setup, screenshots, and launch readiness for the Play Store.",
+        },
+        {
+          q: "Can you integrate APIs and admin panels?",
+          a: "Yes. We support API integration, dashboards, notifications, and backend workflows as part of app delivery.",
+        },
       ],
     },
     "app-development-company-jaipur.html": {
       title: "App Development Company in Jaipur | Android, iOS and Custom Apps",
-      description: "Agile Edtech Solutions is an app development company in Jaipur delivering Android, iOS, and custom mobile apps with modern UX, backend integration, and post-launch support.",
-      keywords: "app development company jaipur, mobile app development jaipur, android ios app developer jaipur, custom app development company jaipur",
+      description:
+        "Agile Edtech Solutions is an app development company in Jaipur delivering Android, iOS, and custom mobile apps with modern UX, backend integration, and post-launch support.",
+      keywords:
+        "app development company jaipur, mobile app development jaipur, android ios app developer jaipur, custom app development company jaipur",
       service: "App Development Company in Jaipur",
       faqs: [
-        { q: "Do you build both Android and iOS applications?", a: "Yes. We provide app development services for Android, iOS, and custom business app requirements." },
-        { q: "Can you build business apps from idea to launch?", a: "Yes. We handle planning, UI/UX, development, testing, deployment, and ongoing support." },
-        { q: "Do you develop apps for specific industries?", a: "Yes. We work across healthcare, education, eCommerce, on-demand, logistics, and other business domains." },
+        {
+          q: "Do you build both Android and iOS applications?",
+          a: "Yes. We provide app development services for Android, iOS, and custom business app requirements.",
+        },
+        {
+          q: "Can you build business apps from idea to launch?",
+          a: "Yes. We handle planning, UI/UX, development, testing, deployment, and ongoing support.",
+        },
+        {
+          q: "Do you develop apps for specific industries?",
+          a: "Yes. We work across healthcare, education, eCommerce, on-demand, logistics, and other business domains.",
+        },
       ],
     },
     "best-digital-marketing-company-jaipur.html": {
-      title: "Best Digital Marketing Company in Jaipur | Agile Edtech Solutions",
-      description: "Searching for the best digital marketing company in Jaipur? Agile Edtech Solutions delivers SEO, PPC, social media, lead generation, and performance campaigns with measurable ROI.",
-      keywords: "best digital marketing company in jaipur, best digital marketing agency in jaipur, top digital marketing company jaipur, performance marketing company jaipur",
+      title:
+        "Best Digital Marketing Company in Jaipur | Agile Edtech Solutions",
+      description:
+        "Searching for the best digital marketing company in Jaipur? Agile Edtech Solutions delivers SEO, PPC, social media, lead generation, and performance campaigns with measurable ROI.",
+      keywords:
+        "best digital marketing company in jaipur, best digital marketing agency in jaipur, top digital marketing company jaipur, performance marketing company jaipur",
       service: "Best Digital Marketing Company in Jaipur",
       faqs: [
-        { q: "Why do businesses choose your digital marketing company in Jaipur?", a: "Businesses choose us for SEO, paid ads, lead generation, transparent reporting, and conversion-focused campaign execution." },
-        { q: "Do you provide both organic and paid marketing?", a: "Yes. We combine SEO, local SEO, paid ads, social media, and remarketing based on your goals." },
-        { q: "Can you create an ROI-focused growth plan?", a: "Yes. We define channel strategy, landing-page needs, tracking setup, and optimization priorities around measurable outcomes." },
+        {
+          q: "Why do businesses choose your digital marketing company in Jaipur?",
+          a: "Businesses choose us for SEO, paid ads, lead generation, transparent reporting, and conversion-focused campaign execution.",
+        },
+        {
+          q: "Do you provide both organic and paid marketing?",
+          a: "Yes. We combine SEO, local SEO, paid ads, social media, and remarketing based on your goals.",
+        },
+        {
+          q: "Can you create an ROI-focused growth plan?",
+          a: "Yes. We define channel strategy, landing-page needs, tracking setup, and optimization priorities around measurable outcomes.",
+        },
       ],
     },
     "best-ppc-agency-jaipur.html": {
       title: "Best PPC Agency in Jaipur | Google Ads and Paid Campaign Experts",
-      description: "Agile Edtech Solutions is a best PPC agency in Jaipur managing Google Ads, search campaigns, display advertising, remarketing, and conversion optimization for stronger ROI.",
-      keywords: "best ppc agency in jaipur, ppc company jaipur, google ads agency jaipur, pay per click management jaipur, paid ads company jaipur",
+      description:
+        "Agile Edtech Solutions is a best PPC agency in Jaipur managing Google Ads, search campaigns, display advertising, remarketing, and conversion optimization for stronger ROI.",
+      keywords:
+        "best ppc agency in jaipur, ppc company jaipur, google ads agency jaipur, pay per click management jaipur, paid ads company jaipur",
       service: "Best PPC Agency in Jaipur",
       faqs: [
-        { q: "What does your PPC agency manage?", a: "We manage Google Ads strategy, search campaigns, display ads, remarketing, conversion tracking, and ongoing optimization." },
-        { q: "Can you improve cost per lead?", a: "Yes. We refine keywords, audience targeting, landing pages, and bidding strategy to improve lead quality and efficiency." },
-        { q: "Do you work with local and national campaigns?", a: "Yes. We manage local Jaipur campaigns as well as broader regional and national paid campaigns." },
+        {
+          q: "What does your PPC agency manage?",
+          a: "We manage Google Ads strategy, search campaigns, display ads, remarketing, conversion tracking, and ongoing optimization.",
+        },
+        {
+          q: "Can you improve cost per lead?",
+          a: "Yes. We refine keywords, audience targeting, landing pages, and bidding strategy to improve lead quality and efficiency.",
+        },
+        {
+          q: "Do you work with local and national campaigns?",
+          a: "Yes. We manage local Jaipur campaigns as well as broader regional and national paid campaigns.",
+        },
       ],
     },
     "best-seo-company-jaipur.html": {
-      title: "Best SEO Company in Jaipur | Local SEO and Organic Growth Experts",
-      description: "Agile Edtech Solutions is a best SEO company in Jaipur helping businesses with on-page SEO, technical SEO, local SEO, content strategy, and long-term organic growth.",
-      keywords: "best seo company in jaipur, seo company jaipur, local seo services jaipur, organic seo company jaipur, technical seo experts jaipur",
+      title:
+        "Best SEO Company in Jaipur | Local SEO and Organic Growth Experts",
+      description:
+        "Agile Edtech Solutions is a best SEO company in Jaipur helping businesses with on-page SEO, technical SEO, local SEO, content strategy, and long-term organic growth.",
+      keywords:
+        "best seo company in jaipur, seo company jaipur, local seo services jaipur, organic seo company jaipur, technical seo experts jaipur",
       service: "Best SEO Company in Jaipur",
       faqs: [
-        { q: "What SEO services do you provide in Jaipur?", a: "We provide technical SEO, on-page SEO, local SEO, content optimization, and ranking performance improvements." },
-        { q: "Can you help local Jaipur businesses rank on Google?", a: "Yes. We improve map visibility, location relevance, service-page structure, and local keyword targeting." },
-        { q: "How long does SEO usually take?", a: "SEO takes time, but we structure work around sustainable organic visibility and measurable progress." },
+        {
+          q: "What SEO services do you provide in Jaipur?",
+          a: "We provide technical SEO, on-page SEO, local SEO, content optimization, and ranking performance improvements.",
+        },
+        {
+          q: "Can you help local Jaipur businesses rank on Google?",
+          a: "Yes. We improve map visibility, location relevance, service-page structure, and local keyword targeting.",
+        },
+        {
+          q: "How long does SEO usually take?",
+          a: "SEO takes time, but we structure work around sustainable organic visibility and measurable progress.",
+        },
       ],
     },
     "best-smo-service-jaipur.html": {
-      title: "Best SMO Service in Jaipur | Social Media Marketing and Brand Growth",
-      description: "Agile Edtech Solutions offers the best SMO service in Jaipur with social media strategy, content planning, platform optimization, audience growth, and campaign support.",
-      keywords: "best smo service jaipur, social media company jaipur, social media marketing jaipur, social media optimization service jaipur",
+      title:
+        "Best SMO Service in Jaipur | Social Media Marketing and Brand Growth",
+      description:
+        "Agile Edtech Solutions offers the best SMO service in Jaipur with social media strategy, content planning, platform optimization, audience growth, and campaign support.",
+      keywords:
+        "best smo service jaipur, social media company jaipur, social media marketing jaipur, social media optimization service jaipur",
       service: "Best SMO Service in Jaipur",
       faqs: [
-        { q: "What is included in your SMO service in Jaipur?", a: "We provide profile optimization, content strategy, audience engagement, posting plans, and growth-focused social media support." },
-        { q: "Do you support Instagram and Facebook marketing?", a: "Yes. We support major social platforms including Instagram and Facebook with content and campaign planning." },
-        { q: "Can social media support lead generation?", a: "Yes. Social content and paid social campaigns can improve brand trust, engagement, and qualified enquiry flow." },
+        {
+          q: "What is included in your SMO service in Jaipur?",
+          a: "We provide profile optimization, content strategy, audience engagement, posting plans, and growth-focused social media support.",
+        },
+        {
+          q: "Do you support Instagram and Facebook marketing?",
+          a: "Yes. We support major social platforms including Instagram and Facebook with content and campaign planning.",
+        },
+        {
+          q: "Can social media support lead generation?",
+          a: "Yes. Social content and paid social campaigns can improve brand trust, engagement, and qualified enquiry flow.",
+        },
       ],
     },
     "best-software-company-jaipur.html": {
-      title: "Best Software Company in Jaipur | Custom Software Development Experts",
-      description: "Agile Edtech Solutions is a best software company in Jaipur delivering custom software, business automation tools, CRM systems, portals, and scalable web solutions.",
-      keywords: "best software company in jaipur, software development company jaipur, custom software company jaipur, business software developer jaipur",
+      title:
+        "Best Software Company in Jaipur | Custom Software Development Experts",
+      description:
+        "Agile Edtech Solutions is a best software company in Jaipur delivering custom software, business automation tools, CRM systems, portals, and scalable web solutions.",
+      keywords:
+        "best software company in jaipur, software development company jaipur, custom software company jaipur, business software developer jaipur",
       service: "Best Software Company in Jaipur",
       faqs: [
-        { q: "What type of software solutions do you build?", a: "We build CRM systems, business portals, automation tools, dashboards, and custom workflow-driven software." },
-        { q: "Can software be customized for my process?", a: "Yes. We tailor software modules to your operations, roles, reporting needs, and business logic." },
-        { q: "Do you provide support after launch?", a: "Yes. We support updates, maintenance, enhancements, and performance improvements after deployment." },
+        {
+          q: "What type of software solutions do you build?",
+          a: "We build CRM systems, business portals, automation tools, dashboards, and custom workflow-driven software.",
+        },
+        {
+          q: "Can software be customized for my process?",
+          a: "Yes. We tailor software modules to your operations, roles, reporting needs, and business logic.",
+        },
+        {
+          q: "Do you provide support after launch?",
+          a: "Yes. We support updates, maintenance, enhancements, and performance improvements after deployment.",
+        },
       ],
     },
     "best-web-design-agency-jaipur.html": {
-      title: "Best Web Design Agency in Jaipur | Responsive Website Design Experts",
-      description: "Agile Edtech Solutions is a best web design agency in Jaipur creating responsive business websites, landing pages, eCommerce interfaces, and SEO-friendly website experiences.",
-      keywords: "best web design agency jaipur, website design company jaipur, best web design agency near me, responsive website design jaipur",
+      title:
+        "Best Web Design Agency in Jaipur | Responsive Website Design Experts",
+      description:
+        "Agile Edtech Solutions is a best web design agency in Jaipur creating responsive business websites, landing pages, eCommerce interfaces, and SEO-friendly website experiences.",
+      keywords:
+        "best web design agency jaipur, website design company jaipur, best web design agency near me, responsive website design jaipur",
       service: "Best Web Design Agency in Jaipur",
       faqs: [
-        { q: "Do you design responsive websites for businesses in Jaipur?", a: "Yes. We design responsive websites for business websites, service pages, landing pages, and eCommerce use cases." },
-        { q: "Can you redesign an existing website?", a: "Yes. We improve design quality, UX clarity, mobile experience, and conversion flow during redesign projects." },
-        { q: "Are your websites SEO-friendly?", a: "Yes. We follow SEO-friendly structure, mobile responsiveness, and metadata best practices in our website builds." },
+        {
+          q: "Do you design responsive websites for businesses in Jaipur?",
+          a: "Yes. We design responsive websites for business websites, service pages, landing pages, and eCommerce use cases.",
+        },
+        {
+          q: "Can you redesign an existing website?",
+          a: "Yes. We improve design quality, UX clarity, mobile experience, and conversion flow during redesign projects.",
+        },
+        {
+          q: "Are your websites SEO-friendly?",
+          a: "Yes. We follow SEO-friendly structure, mobile responsiveness, and metadata best practices in our website builds.",
+        },
       ],
     },
     "digital-marketing-agency-jaipur.html": {
       title: "Digital Marketing Agency in Jaipur | SEO, Ads and Lead Growth",
-      description: "Agile Edtech Solutions is a digital marketing agency in Jaipur helping businesses grow through SEO, PPC, social media marketing, lead generation, and measurable performance campaigns.",
-      keywords: "digital marketing agency in jaipur, digital marketing company jaipur, seo and ppc agency jaipur, lead generation company jaipur, marketing agency jaipur",
+      description:
+        "Agile Edtech Solutions is a digital marketing agency in Jaipur helping businesses grow through SEO, PPC, social media marketing, lead generation, and measurable performance campaigns.",
+      keywords:
+        "digital marketing agency in jaipur, digital marketing company jaipur, seo and ppc agency jaipur, lead generation company jaipur, marketing agency jaipur",
       service: "Digital Marketing Agency in Jaipur",
       faqs: [
-        { q: "What services do you offer as a digital marketing agency in Jaipur?", a: "We provide SEO, paid ads, social media marketing, lead generation, local SEO, and campaign optimization." },
-        { q: "Do you support Jaipur-based local businesses?", a: "Yes. We work with local businesses, startups, and multi-location brands in Jaipur and beyond." },
-        { q: "Can you manage both leads and brand visibility?", a: "Yes. We balance performance marketing with long-term brand visibility and organic growth." },
+        {
+          q: "What services do you offer as a digital marketing agency in Jaipur?",
+          a: "We provide SEO, paid ads, social media marketing, lead generation, local SEO, and campaign optimization.",
+        },
+        {
+          q: "Do you support Jaipur-based local businesses?",
+          a: "Yes. We work with local businesses, startups, and multi-location brands in Jaipur and beyond.",
+        },
+        {
+          q: "Can you manage both leads and brand visibility?",
+          a: "Yes. We balance performance marketing with long-term brand visibility and organic growth.",
+        },
       ],
     },
     "graphic-design-company-jaipur.html": {
-      title: "Graphic Design Company in Jaipur | Creative Branding and Marketing Design",
-      description: "Agile Edtech Solutions is a graphic design company in Jaipur offering branding, social media creatives, ad design, marketing collateral, and visual design support for growing businesses.",
-      keywords: "graphic design company jaipur, graphic designer jaipur, branding design company jaipur, marketing creatives jaipur, social media design company jaipur",
+      title:
+        "Graphic Design Company in Jaipur | Creative Branding and Marketing Design",
+      description:
+        "Agile Edtech Solutions is a graphic design company in Jaipur offering branding, social media creatives, ad design, marketing collateral, and visual design support for growing businesses.",
+      keywords:
+        "graphic design company jaipur, graphic designer jaipur, branding design company jaipur, marketing creatives jaipur, social media design company jaipur",
       service: "Graphic Design Company in Jaipur",
       faqs: [
-        { q: "What graphic design services do you offer?", a: "We provide branding graphics, social media creatives, ad designs, marketing collateral, and digital design support." },
-        { q: "Do you design creatives for paid campaigns and social media?", a: "Yes. We create graphics for paid ads, social media promotions, and broader brand communication." },
-        { q: "Can you align designs with brand identity?", a: "Yes. We design according to your brand tone, audience, and campaign goals." },
+        {
+          q: "What graphic design services do you offer?",
+          a: "We provide branding graphics, social media creatives, ad designs, marketing collateral, and digital design support.",
+        },
+        {
+          q: "Do you design creatives for paid campaigns and social media?",
+          a: "Yes. We create graphics for paid ads, social media promotions, and broader brand communication.",
+        },
+        {
+          q: "Can you align designs with brand identity?",
+          a: "Yes. We design according to your brand tone, audience, and campaign goals.",
+        },
       ],
     },
     "it-companies-jaipur.html": {
-      title: "IT Companies in Jaipur | Website, Software and Digital Growth Services",
-      description: "Agile Edtech Solutions ranks among trusted IT companies in Jaipur for website development, software solutions, mobile apps, SEO, Google Ads, and digital business growth.",
-      keywords: "it companies in jaipur, it company jaipur, software and web development company jaipur, digital services company jaipur",
+      title:
+        "IT Companies in Jaipur | Website, Software and Digital Growth Services",
+      description:
+        "Agile Edtech Solutions ranks among trusted IT companies in Jaipur for website development, software solutions, mobile apps, SEO, Google Ads, and digital business growth.",
+      keywords:
+        "it companies in jaipur, it company jaipur, software and web development company jaipur, digital services company jaipur",
       service: "IT Company Services in Jaipur",
       faqs: [
-        { q: "What services do you offer as an IT company in Jaipur?", a: "We offer website development, software solutions, app development, SEO, paid ads, and digital growth services." },
-        { q: "Do you work with startups and SMEs?", a: "Yes. We work with startups, SMEs, and growth-focused businesses across different industries." },
-        { q: "Can one company handle both development and marketing?", a: "Yes. Our team covers development, design, and digital marketing under one roof." },
+        {
+          q: "What services do you offer as an IT company in Jaipur?",
+          a: "We offer website development, software solutions, app development, SEO, paid ads, and digital growth services.",
+        },
+        {
+          q: "Do you work with startups and SMEs?",
+          a: "Yes. We work with startups, SMEs, and growth-focused businesses across different industries.",
+        },
+        {
+          q: "Can one company handle both development and marketing?",
+          a: "Yes. Our team covers development, design, and digital marketing under one roof.",
+        },
       ],
     },
     "lead-generation-landing-page.html": {
-      title: "Lead Generation Services in Jaipur | Landing Pages and Performance Campaigns",
-      description: "Generate better leads with Agile Edtech Solutions through high-converting landing pages, paid ads, remarketing, and funnel optimization tailored to your business goals.",
-      keywords: "lead generation services jaipur, lead generation company jaipur, landing page agency jaipur, performance lead campaigns jaipur",
+      title:
+        "Lead Generation Services in Jaipur | Landing Pages and Performance Campaigns",
+      description:
+        "Generate better leads with Agile Edtech Solutions through high-converting landing pages, paid ads, remarketing, and funnel optimization tailored to your business goals.",
+      keywords:
+        "lead generation services jaipur, lead generation company jaipur, landing page agency jaipur, performance lead campaigns jaipur",
       service: "Lead Generation Landing Page Services",
       faqs: [
-        { q: "What channels do you use for lead generation?", a: "We use landing pages, Google Ads, Meta Ads, remarketing, and conversion-focused funnel planning." },
-        { q: "Can you improve lead quality as well as volume?", a: "Yes. We focus on landing-page relevance, targeting, qualification flow, and reporting to improve lead quality." },
-        { q: "Do you support different industries?", a: "Yes. We tailor lead generation campaigns by industry, offer type, geography, and customer intent." },
+        {
+          q: "What channels do you use for lead generation?",
+          a: "We use landing pages, Google Ads, Meta Ads, remarketing, and conversion-focused funnel planning.",
+        },
+        {
+          q: "Can you improve lead quality as well as volume?",
+          a: "Yes. We focus on landing-page relevance, targeting, qualification flow, and reporting to improve lead quality.",
+        },
+        {
+          q: "Do you support different industries?",
+          a: "Yes. We tailor lead generation campaigns by industry, offer type, geography, and customer intent.",
+        },
       ],
     },
     "logo-designers-jaipur.html": {
-      title: "Logo Designers in Jaipur | Brand Identity and Logo Design Services",
-      description: "Agile Edtech Solutions offers logo design services in Jaipur for startups, SMEs, and established brands looking for memorable, market-ready visual identity systems.",
-      keywords: "logo designers in jaipur, logo design company jaipur, branding agency jaipur, business logo designer jaipur",
+      title:
+        "Logo Designers in Jaipur | Brand Identity and Logo Design Services",
+      description:
+        "Agile Edtech Solutions offers logo design services in Jaipur for startups, SMEs, and established brands looking for memorable, market-ready visual identity systems.",
+      keywords:
+        "logo designers in jaipur, logo design company jaipur, branding agency jaipur, business logo designer jaipur",
       service: "Logo Design Services in Jaipur",
       faqs: [
-        { q: "Do you create custom logo concepts?", a: "Yes. We create original logo concepts based on brand positioning, market fit, and usage requirements." },
-        { q: "Can you also help with brand identity design?", a: "Yes. We support broader brand identity work including colours, typography, and design consistency." },
-        { q: "Do you design logos for startups and established businesses?", a: "Yes. We work with both new brands and businesses looking to refresh existing identity." },
+        {
+          q: "Do you create custom logo concepts?",
+          a: "Yes. We create original logo concepts based on brand positioning, market fit, and usage requirements.",
+        },
+        {
+          q: "Can you also help with brand identity design?",
+          a: "Yes. We support broader brand identity work including colours, typography, and design consistency.",
+        },
+        {
+          q: "Do you design logos for startups and established businesses?",
+          a: "Yes. We work with both new brands and businesses looking to refresh existing identity.",
+        },
       ],
     },
     "performance-marketing-agency-jaipur.html": {
-      title: "Performance Marketing Agency in Jaipur | ROI-Focused Growth Campaigns",
-      description: "Agile Edtech Solutions is a performance marketing agency in Jaipur delivering ROI-focused Google Ads, Meta Ads, remarketing, and lead generation strategies for scalable growth.",
-      keywords: "performance marketing agency jaipur, performance marketing company jaipur, roi marketing agency jaipur, paid growth agency jaipur",
+      title:
+        "Performance Marketing Agency in Jaipur | ROI-Focused Growth Campaigns",
+      description:
+        "Agile Edtech Solutions is a performance marketing agency in Jaipur delivering ROI-focused Google Ads, Meta Ads, remarketing, and lead generation strategies for scalable growth.",
+      keywords:
+        "performance marketing agency jaipur, performance marketing company jaipur, roi marketing agency jaipur, paid growth agency jaipur",
       service: "Performance Marketing Agency in Jaipur",
       faqs: [
-        { q: "What does a performance marketing agency help with?", a: "We help with paid acquisition, conversion tracking, remarketing, lead quality, and ROI-focused campaign scaling." },
-        { q: "Do you optimize campaigns for sales and leads?", a: "Yes. We build campaigns around revenue, lead generation, and measurable acquisition outcomes." },
-        { q: "Can you manage Google and Meta together?", a: "Yes. We create channel-specific and blended strategies across Google Ads and Meta Ads." },
+        {
+          q: "What does a performance marketing agency help with?",
+          a: "We help with paid acquisition, conversion tracking, remarketing, lead quality, and ROI-focused campaign scaling.",
+        },
+        {
+          q: "Do you optimize campaigns for sales and leads?",
+          a: "Yes. We build campaigns around revenue, lead generation, and measurable acquisition outcomes.",
+        },
+        {
+          q: "Can you manage Google and Meta together?",
+          a: "Yes. We create channel-specific and blended strategies across Google Ads and Meta Ads.",
+        },
       ],
     },
     "software-company-jaipur.html": {
-      title: "Software Company in Jaipur | Custom Software and Business Solutions",
-      description: "Agile Edtech Solutions is a software company in Jaipur building custom software, CRM systems, portals, automation workflows, and scalable business applications.",
-      keywords: "software company jaipur, software development company jaipur, custom software jaipur, business software company jaipur",
+      title:
+        "Software Company in Jaipur | Custom Software and Business Solutions",
+      description:
+        "Agile Edtech Solutions is a software company in Jaipur building custom software, CRM systems, portals, automation workflows, and scalable business applications.",
+      keywords:
+        "software company jaipur, software development company jaipur, custom software jaipur, business software company jaipur",
       service: "Software Company in Jaipur",
       faqs: [
-        { q: "What business software do you develop?", a: "We build custom software, CRM solutions, portals, business dashboards, and workflow automation platforms." },
-        { q: "Can you build software for specific departments or workflows?", a: "Yes. We align software modules with sales, operations, reporting, and internal process requirements." },
-        { q: "Do you provide maintenance and support?", a: "Yes. We support software updates, bug fixes, enhancements, and long-term improvements after launch." },
+        {
+          q: "What business software do you develop?",
+          a: "We build custom software, CRM solutions, portals, business dashboards, and workflow automation platforms.",
+        },
+        {
+          q: "Can you build software for specific departments or workflows?",
+          a: "Yes. We align software modules with sales, operations, reporting, and internal process requirements.",
+        },
+        {
+          q: "Do you provide maintenance and support?",
+          a: "Yes. We support software updates, bug fixes, enhancements, and long-term improvements after launch.",
+        },
       ],
     },
     "ui-ux-design-agency.html": {
-      title: "UI UX Design Agency in Jaipur | Product Design and User Experience Services",
-      description: "Agile Edtech Solutions is a UI UX design agency in Jaipur offering user interface design, UX strategy, wireframes, design systems, and product-focused digital experiences.",
-      keywords: "ui ux design agency jaipur, ui ux company jaipur, product design agency jaipur, user interface design jaipur, ux design services jaipur",
+      title:
+        "UI UX Design Agency in Jaipur | Product Design and User Experience Services",
+      description:
+        "Agile Edtech Solutions is a UI UX design agency in Jaipur offering user interface design, UX strategy, wireframes, design systems, and product-focused digital experiences.",
+      keywords:
+        "ui ux design agency jaipur, ui ux company jaipur, product design agency jaipur, user interface design jaipur, ux design services jaipur",
       service: "UI UX Design Agency in Jaipur",
       faqs: [
-        { q: "What does your UI UX design agency provide?", a: "We provide user experience planning, wireframes, interface design, design systems, and product usability improvements." },
-        { q: "Do you design for websites and apps?", a: "Yes. We design user experiences for business websites, mobile apps, portals, and software products." },
-        { q: "Can UX design improve conversions?", a: "Yes. Better UX can improve clarity, reduce friction, and increase conversion rate across digital journeys." },
+        {
+          q: "What does your UI UX design agency provide?",
+          a: "We provide user experience planning, wireframes, interface design, design systems, and product usability improvements.",
+        },
+        {
+          q: "Do you design for websites and apps?",
+          a: "Yes. We design user experiences for business websites, mobile apps, portals, and software products.",
+        },
+        {
+          q: "Can UX design improve conversions?",
+          a: "Yes. Better UX can improve clarity, reduce friction, and increase conversion rate across digital journeys.",
+        },
       ],
     },
     "website-developer-jaipur.html": {
-      title: "Website Developer in Jaipur | Business Websites and SEO-Friendly Portals",
-      description: "Hire a website developer in Jaipur from Agile Edtech Solutions for responsive business websites, eCommerce stores, custom portals, and SEO-friendly web platforms.",
-      keywords: "website developer in jaipur, web development company jaipur, website designer jaipur, seo friendly website developer jaipur, business website developer jaipur",
+      title:
+        "Website Developer in Jaipur | Business Websites and SEO-Friendly Portals",
+      description:
+        "Hire a website developer in Jaipur from Agile Edtech Solutions for responsive business websites, eCommerce stores, custom portals, and SEO-friendly web platforms.",
+      keywords:
+        "website developer in jaipur, web development company jaipur, website designer jaipur, seo friendly website developer jaipur, business website developer jaipur",
       service: "Website Developer in Jaipur",
       faqs: [
-        { q: "What kind of websites do you develop?", a: "We develop business websites, service websites, eCommerce stores, landing pages, and custom web portals." },
-        { q: "Do you create SEO-friendly websites?", a: "Yes. We structure websites for speed, mobile responsiveness, crawlability, and metadata readiness." },
-        { q: "Can you redesign or rebuild an existing website?", a: "Yes. We can redesign outdated sites or rebuild them with improved performance and better conversion flow." },
+        {
+          q: "What kind of websites do you develop?",
+          a: "We develop business websites, service websites, eCommerce stores, landing pages, and custom web portals.",
+        },
+        {
+          q: "Do you create SEO-friendly websites?",
+          a: "Yes. We structure websites for speed, mobile responsiveness, crawlability, and metadata readiness.",
+        },
+        {
+          q: "Can you redesign or rebuild an existing website?",
+          a: "Yes. We can redesign outdated sites or rebuild them with improved performance and better conversion flow.",
+        },
       ],
     },
   };
@@ -1127,25 +1497,49 @@
       { href: "paid-advertising.html", label: "Paid Advertising Services" },
       { href: "ppc.html", label: "PPC Management" },
       { href: "facebook-ads.html", label: "Facebook and Instagram Ads" },
-      { href: "performance-marketing-agency-jaipur.html", label: "Performance Marketing Agency Jaipur" },
+      {
+        href: "performance-marketing-agency-jaipur.html",
+        label: "Performance Marketing Agency Jaipur",
+      },
     ],
     "android-app-development-company-jaipur.html": [
-      { href: "android-app-development.html", label: "Android App Development" },
-      { href: "mobile-application-development.html", label: "Mobile App Development" },
+      {
+        href: "android-app-development.html",
+        label: "Android App Development",
+      },
+      {
+        href: "mobile-application-development.html",
+        label: "Mobile App Development",
+      },
       { href: "api-development.html", label: "API Development" },
-      { href: "app-development-company-jaipur.html", label: "App Development Company Jaipur" },
+      {
+        href: "app-development-company-jaipur.html",
+        label: "App Development Company Jaipur",
+      },
     ],
     "app-development-company-jaipur.html": [
-      { href: "mobile-application-development.html", label: "Mobile App Development" },
-      { href: "android-app-development.html", label: "Android App Development" },
+      {
+        href: "mobile-application-development.html",
+        label: "Mobile App Development",
+      },
+      {
+        href: "android-app-development.html",
+        label: "Android App Development",
+      },
       { href: "ios-app-development.html", label: "iOS App Development" },
       { href: "api-development.html", label: "API Development" },
     ],
     "best-digital-marketing-company-jaipur.html": [
-      { href: "digital-marketing-agency-jaipur.html", label: "Digital Marketing Agency Jaipur" },
+      {
+        href: "digital-marketing-agency-jaipur.html",
+        label: "Digital Marketing Agency Jaipur",
+      },
       { href: "seo.html", label: "SEO Services" },
       { href: "lead-generation.html", label: "Lead Generation Services" },
-      { href: "performance-marketing-agency-jaipur.html", label: "Performance Marketing Agency Jaipur" },
+      {
+        href: "performance-marketing-agency-jaipur.html",
+        label: "Performance Marketing Agency Jaipur",
+      },
     ],
     "best-ppc-agency-jaipur.html": [
       { href: "ppc.html", label: "PPC Management Services" },
@@ -1157,23 +1551,41 @@
       { href: "seo.html", label: "SEO Services" },
       { href: "local-seo.html", label: "Local SEO Services" },
       { href: "digital-marketing.html", label: "Digital Marketing Services" },
-      { href: "best-digital-marketing-company-jaipur.html", label: "Best Digital Marketing Company Jaipur" },
+      {
+        href: "best-digital-marketing-company-jaipur.html",
+        label: "Best Digital Marketing Company Jaipur",
+      },
     ],
     "best-smo-service-jaipur.html": [
       { href: "smo.html", label: "Social Media Management" },
       { href: "facebook-ads.html", label: "Facebook and Instagram Ads" },
       { href: "digital-marketing.html", label: "Digital Marketing Services" },
-      { href: "best-digital-marketing-company-jaipur.html", label: "Best Digital Marketing Company Jaipur" },
+      {
+        href: "best-digital-marketing-company-jaipur.html",
+        label: "Best Digital Marketing Company Jaipur",
+      },
     ],
     "best-software-company-jaipur.html": [
-      { href: "software-company-jaipur.html", label: "Software Company Jaipur" },
+      {
+        href: "software-company-jaipur.html",
+        label: "Software Company Jaipur",
+      },
       { href: "custom-software.html", label: "Custom Software Development" },
       { href: "crm-solutions.html", label: "CRM Solutions" },
-      { href: "website-design-development.html", label: "Website Design and Development" },
+      {
+        href: "website-design-development.html",
+        label: "Website Design and Development",
+      },
     ],
     "best-web-design-agency-jaipur.html": [
-      { href: "website-design-development.html", label: "Website Design and Development" },
-      { href: "website-developer-jaipur.html", label: "Website Developer Jaipur" },
+      {
+        href: "website-design-development.html",
+        label: "Website Design and Development",
+      },
+      {
+        href: "website-developer-jaipur.html",
+        label: "Website Developer Jaipur",
+      },
       { href: "web-development.html", label: "Web Development" },
       { href: "ui-ux-design-agency.html", label: "UI UX Design Agency" },
     ],
@@ -1181,19 +1593,40 @@
       { href: "digital-marketing.html", label: "Digital Marketing Services" },
       { href: "seo.html", label: "SEO Services" },
       { href: "ppc.html", label: "PPC Management" },
-      { href: "best-digital-marketing-company-jaipur.html", label: "Best Digital Marketing Company Jaipur" },
+      {
+        href: "best-digital-marketing-company-jaipur.html",
+        label: "Best Digital Marketing Company Jaipur",
+      },
     ],
     "graphic-design-company-jaipur.html": [
       { href: "logo-designers-jaipur.html", label: "Logo Designers Jaipur" },
       { href: "ui-ux-design-agency.html", label: "UI UX Design Agency" },
-      { href: "website-design-development.html", label: "Website Design and Development" },
-      { href: "advertising-agency-jaipur.html", label: "Advertising Agency Jaipur" },
+      {
+        href: "website-design-development.html",
+        label: "Website Design and Development",
+      },
+      {
+        href: "advertising-agency-jaipur.html",
+        label: "Advertising Agency Jaipur",
+      },
     ],
     "it-companies-jaipur.html": [
-      { href: "software-company-jaipur.html", label: "Software Company Jaipur" },
-      { href: "website-developer-jaipur.html", label: "Website Developer Jaipur" },
-      { href: "digital-marketing-agency-jaipur.html", label: "Digital Marketing Agency Jaipur" },
-      { href: "app-development-company-jaipur.html", label: "App Development Company Jaipur" },
+      {
+        href: "software-company-jaipur.html",
+        label: "Software Company Jaipur",
+      },
+      {
+        href: "website-developer-jaipur.html",
+        label: "Website Developer Jaipur",
+      },
+      {
+        href: "digital-marketing-agency-jaipur.html",
+        label: "Digital Marketing Agency Jaipur",
+      },
+      {
+        href: "app-development-company-jaipur.html",
+        label: "App Development Company Jaipur",
+      },
     ],
     "lead-generation-landing-page.html": [
       { href: "lead-generation.html", label: "Lead Generation Services" },
@@ -1202,10 +1635,19 @@
       { href: "digital-marketing.html", label: "Digital Marketing Services" },
     ],
     "logo-designers-jaipur.html": [
-      { href: "graphic-design-company-jaipur.html", label: "Graphic Design Company Jaipur" },
+      {
+        href: "graphic-design-company-jaipur.html",
+        label: "Graphic Design Company Jaipur",
+      },
       { href: "ui-ux-design-agency.html", label: "UI UX Design Agency" },
-      { href: "website-design-development.html", label: "Website Design and Development" },
-      { href: "advertising-agency-jaipur.html", label: "Advertising Agency Jaipur" },
+      {
+        href: "website-design-development.html",
+        label: "Website Design and Development",
+      },
+      {
+        href: "advertising-agency-jaipur.html",
+        label: "Advertising Agency Jaipur",
+      },
     ],
     "performance-marketing-agency-jaipur.html": [
       { href: "paid-advertising.html", label: "Paid Advertising" },
@@ -1217,19 +1659,37 @@
       { href: "custom-software.html", label: "Custom Software Development" },
       { href: "crm-solutions.html", label: "CRM Solutions" },
       { href: "api-development.html", label: "API Development" },
-      { href: "best-software-company-jaipur.html", label: "Best Software Company Jaipur" },
+      {
+        href: "best-software-company-jaipur.html",
+        label: "Best Software Company Jaipur",
+      },
     ],
     "ui-ux-design-agency.html": [
-      { href: "website-design-development.html", label: "Website Design and Development" },
-      { href: "graphic-design-company-jaipur.html", label: "Graphic Design Company Jaipur" },
+      {
+        href: "website-design-development.html",
+        label: "Website Design and Development",
+      },
+      {
+        href: "graphic-design-company-jaipur.html",
+        label: "Graphic Design Company Jaipur",
+      },
       { href: "logo-designers-jaipur.html", label: "Logo Designers Jaipur" },
-      { href: "website-developer-jaipur.html", label: "Website Developer Jaipur" },
+      {
+        href: "website-developer-jaipur.html",
+        label: "Website Developer Jaipur",
+      },
     ],
     "website-developer-jaipur.html": [
-      { href: "website-design-development.html", label: "Website Design and Development" },
+      {
+        href: "website-design-development.html",
+        label: "Website Design and Development",
+      },
       { href: "web-development.html", label: "Web Development" },
       { href: "ecommerce.html", label: "E-Commerce Website Development" },
-      { href: "best-web-design-agency-jaipur.html", label: "Best Web Design Agency Jaipur" },
+      {
+        href: "best-web-design-agency-jaipur.html",
+        label: "Best Web Design Agency Jaipur",
+      },
     ],
   };
 
@@ -1250,17 +1710,19 @@
 
   const removeDuplicateMetaTags = function () {
     const seen = {};
-    document.head.querySelectorAll("meta[name], meta[property]").forEach(function (meta) {
-      const key = meta.getAttribute("name")
-        ? `name:${meta.getAttribute("name").toLowerCase()}`
-        : `property:${meta.getAttribute("property").toLowerCase()}`;
+    document.head
+      .querySelectorAll("meta[name], meta[property]")
+      .forEach(function (meta) {
+        const key = meta.getAttribute("name")
+          ? `name:${meta.getAttribute("name").toLowerCase()}`
+          : `property:${meta.getAttribute("property").toLowerCase()}`;
 
-      if (seen[key]) {
-        meta.remove();
-      } else {
-        seen[key] = true;
-      }
-    });
+        if (seen[key]) {
+          meta.remove();
+        } else {
+          seen[key] = true;
+        }
+      });
   };
 
   const ensureCanonical = function (href) {
@@ -1346,10 +1808,15 @@
   };
 
   const hasExistingSchemaType = function (typeName) {
-    const schemaScripts = document.querySelectorAll('script[type="application/ld+json"]');
+    const schemaScripts = document.querySelectorAll(
+      'script[type="application/ld+json"]',
+    );
     for (let i = 0; i < schemaScripts.length; i += 1) {
       const text = schemaScripts[i].textContent || "";
-      if (text.indexOf(`"@type":"${typeName}"`) > -1 || text.indexOf(`"@type": "${typeName}"`) > -1) {
+      if (
+        text.indexOf(`"@type":"${typeName}"`) > -1 ||
+        text.indexOf(`"@type": "${typeName}"`) > -1
+      ) {
         return true;
       }
     }
@@ -1357,10 +1824,7 @@
   };
 
   const getPageCrumbName = function (title) {
-    return (title || "")
-      .split("|")[0]
-      .replace(/\s+/g, " ")
-      .trim();
+    return (title || "").split("|")[0].replace(/\s+/g, " ").trim();
   };
 
   const addBreadcrumbSchema = function (pageUrl, file, title) {
@@ -1459,7 +1923,11 @@
 
   const injectRelatedLinks = function (file) {
     const links = relatedLinksMap[file];
-    if (!links || !links.length || document.getElementById("agile-related-links")) {
+    if (
+      !links ||
+      !links.length ||
+      document.getElementById("agile-related-links")
+    ) {
       return;
     }
 
@@ -1519,8 +1987,11 @@
     removeDuplicateMetaTags();
     const { file, normalizedPath } = getPathInfo();
     const existingDescription =
-      (document.head.querySelector('meta[name="description"]') || {}).content || defaultDescription;
-    const existingKeywords = (document.head.querySelector('meta[name="keywords"]') || {}).content || defaultKeywords;
+      (document.head.querySelector('meta[name="description"]') || {}).content ||
+      defaultDescription;
+    const existingKeywords =
+      (document.head.querySelector('meta[name="keywords"]') || {}).content ||
+      defaultKeywords;
     const pageSeo = seoMap[file] || {
       title: document.title.replace(/\s+/g, " ").trim() || defaultTitle,
       description: existingDescription,
@@ -1530,25 +2001,71 @@
     const generatedUrl = `${siteUrl}${normalizedPath}`;
     const pageUrl = ensureCanonical(generatedUrl);
 
-    const staticTitle = document.title.replace(/\s+/g, " ").trim() || pageSeo.title;
+    const staticTitle =
+      document.title.replace(/\s+/g, " ").trim() || pageSeo.title;
     const staticDescription = existingDescription || pageSeo.description;
     document.title = staticTitle;
-    ensureMeta('meta[name="description"]', { name: "description", content: staticDescription });
-    ensureMeta('meta[name="keywords"]', { name: "keywords", content: pageSeo.keywords || defaultKeywords });
-    ensureMeta('meta[name="robots"]', { name: "robots", content: "index, follow, max-image-preview:large" });
+    ensureMeta('meta[name="description"]', {
+      name: "description",
+      content: staticDescription,
+    });
+    ensureMeta('meta[name="keywords"]', {
+      name: "keywords",
+      content: pageSeo.keywords || defaultKeywords,
+    });
+    ensureMeta('meta[name="robots"]', {
+      name: "robots",
+      content: "index, follow, max-image-preview:large",
+    });
     ensureMeta('meta[name="author"]', { name: "author", content: siteName });
-    ensureMeta('meta[property="og:title"]', { property: "og:title", content: staticTitle });
-    ensureMeta('meta[property="og:description"]', { property: "og:description", content: staticDescription });
-    ensureMeta('meta[property="og:type"]', { property: "og:type", content: "website" });
-    ensureMeta('meta[property="og:url"]', { property: "og:url", content: pageUrl });
-    ensureMeta('meta[property="og:image"]', { property: "og:image", content: ogImage });
-    ensureMeta('meta[property="og:site_name"]', { property: "og:site_name", content: siteName });
-    ensureMeta('meta[name="twitter:card"]', { name: "twitter:card", content: "summary_large_image" });
-    ensureMeta('meta[name="twitter:title"]', { name: "twitter:title", content: staticTitle });
-    ensureMeta('meta[name="twitter:description"]', { name: "twitter:description", content: staticDescription });
-    ensureMeta('meta[name="twitter:image"]', { name: "twitter:image", content: ogImage });
-    ensureMeta('meta[name="geo.region"]', { name: "geo.region", content: "IN-RJ" });
-    ensureMeta('meta[name="geo.placename"]', { name: "geo.placename", content: "Jaipur" });
+    ensureMeta('meta[property="og:title"]', {
+      property: "og:title",
+      content: staticTitle,
+    });
+    ensureMeta('meta[property="og:description"]', {
+      property: "og:description",
+      content: staticDescription,
+    });
+    ensureMeta('meta[property="og:type"]', {
+      property: "og:type",
+      content: "website",
+    });
+    ensureMeta('meta[property="og:url"]', {
+      property: "og:url",
+      content: pageUrl,
+    });
+    ensureMeta('meta[property="og:image"]', {
+      property: "og:image",
+      content: ogImage,
+    });
+    ensureMeta('meta[property="og:site_name"]', {
+      property: "og:site_name",
+      content: siteName,
+    });
+    ensureMeta('meta[name="twitter:card"]', {
+      name: "twitter:card",
+      content: "summary_large_image",
+    });
+    ensureMeta('meta[name="twitter:title"]', {
+      name: "twitter:title",
+      content: staticTitle,
+    });
+    ensureMeta('meta[name="twitter:description"]', {
+      name: "twitter:description",
+      content: staticDescription,
+    });
+    ensureMeta('meta[name="twitter:image"]', {
+      name: "twitter:image",
+      content: ogImage,
+    });
+    ensureMeta('meta[name="geo.region"]', {
+      name: "geo.region",
+      content: "IN-RJ",
+    });
+    ensureMeta('meta[name="geo.placename"]', {
+      name: "geo.placename",
+      content: "Jaipur",
+    });
     addBusinessSchema(pageUrl);
     addBreadcrumbSchema(pageUrl, file, pageSeo.title);
     addServiceSchema(pageUrl, file, pageSeo);
