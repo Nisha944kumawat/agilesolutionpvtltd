@@ -1053,6 +1053,9 @@
     <image:image>
       <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/business-card-design.png</image:loc>
     </image:image>
+        <image:image>
+      <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/bulk-voice-calls-img.jpeg</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/c-panel-management.png</image:loc>
     </image:image>
@@ -1303,6 +1306,9 @@
       <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/rest-api.png</image:loc>
     </image:image>
     <image:image>
+      <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/rcs-messaging-img.jpeg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/schema-markup.png</image:loc>
     </image:image>
     <image:image>
@@ -1328,6 +1334,9 @@
     </image:image>
     <image:image>
       <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/sms-api-integration.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/sms-marketing-img.jpeg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://agilesolutionpvtltd.vercel.app/assets/service/social-media-marketing.png</image:loc>
