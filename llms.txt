@@ -3,21 +3,21 @@
 > Jaipur-based website development, software, mobile app, SEO and digital marketing company serving businesses across India.
 
 ## Core services
-- Website design and development: https://agilesolutionpvtltd.vercel.app/website-design-development.html
-- Software development: https://agilesolutionpvtltd.vercel.app/software-development.html
-- Mobile app development: https://agilesolutionpvtltd.vercel.app/mobile-application-development.html
-- SEO services: https://agilesolutionpvtltd.vercel.app/seo.html
-- Digital marketing: https://agilesolutionpvtltd.vercel.app/digital-marketing.html
-- AI and automation: https://agilesolutionpvtltd.vercel.app/ai-automation.html
-- API integration: https://agilesolutionpvtltd.vercel.app/api-development.html
+- Website design and development: https://agilesolutions.co.in//website-design-development.html
+- Software development: https://agilesolutions.co.in//software-development.html
+- Mobile app development: https://agilesolutions.co.in//mobile-application-development.html
+- SEO services: https://agilesolutions.co.in//seo.html
+- Digital marketing: https://agilesolutions.co.in//digital-marketing.html
+- AI and automation: https://agilesolutions.co.in//ai-automation.html
+- API integration: https://agilesolutions.co.in//api-development.html
 
 ## Company
-- About: https://agilesolutionpvtltd.vercel.app/about-us.html
-- Portfolio: https://agilesolutionpvtltd.vercel.app/our-work.html
-- Contact: https://agilesolutionpvtltd.vercel.app/contact.html
+- About: https://agilesolutions.co.in//about-us.html
+- Portfolio: https://agilesolutions.co.in//our-work.html
+- Contact: https://agilesolutions.co.in//contact.html
 - Phone: +91-8005677079
 - Address: Shop 17, Green Commercial Park, C-2SF, Jagatpura, Jaipur, Rajasthan 302017, India
 
 ## Crawling
-- Sitemap: https://agilesolutionpvtltd.vercel.app/sitemap.xml
-- Image sitemap: https://agilesolutionpvtltd.vercel.app/sitemap-images.xml
+- Sitemap: https://agilesolutions.co.in//sitemap.xml
+- Image sitemap: https://agilesolutions.co.in//sitemap-images.xml

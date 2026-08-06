@@ -2,7 +2,7 @@
   const siteName = "Agile Edtech Solutions Pvt Ltd";
   const siteUrl = window.location.origin;
   const ogImage =
-    "https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png";
+    "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png";
 
   const defaultTitle = "Web Development & Digital Marketing Company Jaipur";
   const defaultDescription =

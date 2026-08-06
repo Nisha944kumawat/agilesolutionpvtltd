@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /cgi-bin/
 
-Sitemap: https://agilesolutionpvtltd.vercel.app/sitemap.xml
-Sitemap: https://agilesolutionpvtltd.vercel.app/sitemap-images.xml
+Sitemap: https://agilesolutions.co.in//sitemap.xml
+Sitemap: https://agilesolutions.co.in//sitemap-images.xml

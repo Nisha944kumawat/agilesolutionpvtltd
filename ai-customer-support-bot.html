@@ -1,1697 +1,1055 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
+  <head>
+    <!-- Essential Meta Tags -->
 
+    <meta charset="UTF-8" />
 
-<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Essential Meta Tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <meta charset="UTF-8">
+    <!-- Primary Meta Information -->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Customer Support Bot Development | Agile Solutions</title>
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-  <!-- Primary Meta Information -->
-
-  <title>AI Customer Support Bot Development | Agile Solutions</title>
-
-  <meta name="description" content="Automate customer communication with AI Customer Support Bot Development Services by Agile Edtech Solutions. Build intelligent AI chatbots that provide...">
-
-  <meta name="keywords"
-    content="AI Customer Support Bot, AI Chatbot Development, Customer Service Automation, AI Chatbot Company Jaipur, Business AI Solutions, Chatbot Development Services, AI Automation Services">
-
-
-  <!-- SEO Settings -->
-
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-
-  <meta name="revisit-after" content="1 day">
-
-  <meta name="language" content="en">
-
-  <meta name="author" content="Agile Edtech Solutions Pvt Ltd">
-
-
-  <!-- Open Graph -->
-
-  <meta property="og:title" content="AI Customer Support Bot Development | Agile Solutions">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:url" content="https://agilesolutionpvtltd.vercel.app/ai-customer-support-bot.html">
-
-  <meta property="og:image"
-    content="https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png">
-
-  <meta property="og:site_name"
-    content="Agile Edtech Solutions Pvt Ltd">
-
-  <meta property="og:description" content="Automate customer communication with AI Customer Support Bot Development Services by Agile Edtech Solutions. Build intelligent AI chatbots that provide...">
-
-
-  <!-- Canonical URL -->
-
-  <link rel="canonical" href="https://agilesolutionpvtltd.vercel.app/ai-customer-support-bot.html">
-
-
-  <link rel="icon" type="image/x-icon"
-    href="assets/images/agile-edtech-solutions-favicon.ico">
-
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet">
-
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    rel="stylesheet">
-
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
-    rel="stylesheet">
-
-
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
-
-  <link rel="stylesheet"
-    href="assets/css/style.css?v=20260407-sitemap-html">
-
-
-  <link rel="stylesheet"
-    href="assets/css/responsive.css?v=20260407-sitemap-html">
-
-
-  <meta name="twitter:title" content="AI Customer Support Bot Development | Agile Solutions">
-  <meta name="twitter:description" content="Automate customer communication with AI Customer Support Bot Development Services by Agile Edtech Solutions. Build intelligent AI chatbots that provide...">
-  <link rel="alternate" hreflang="en" href="https://agilesolutionpvtltd.vercel.app/ai-customer-support-bot.html">
-  <link rel="alternate" hreflang="x-default" href="https://agilesolutionpvtltd.vercel.app/ai-customer-support-bot.html">
-  <link rel="alternate" type="text/markdown" href="https://agilesolutionpvtltd.vercel.app/llms.txt" title="AI-readable site summary">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":["LocalBusiness","ProfessionalService"],"@id":"https://agilesolutionpvtltd.vercel.app/#business","name":"Agile Edtech Solutions Pvt Ltd","alternateName":"Agile Solutions","url":"https://agilesolutionpvtltd.vercel.app","logo":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","image":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","telephone":"+91-8005677079","email":"agilesolutions.co.in@gmail.com","priceRange":"₹₹","address":{"@type":"PostalAddress","streetAddress":"Shop 17, Green Commercial Park, C-2SF, Jagatpura","addressLocality":"Jaipur","addressRegion":"Rajasthan","postalCode":"302017","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Jaipur"},{"@type":"Country","name":"India"}],"sameAs":["https://www.facebook.com/AgileSolutionz","https://www.instagram.com/AgileSolutionz","https://www.linkedin.com/company/agilesolutions1","https://www.youtube.com/@AgileSolutionz"]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":["LocalBusiness","ProfessionalService"],"@id":"https://agilesolutionpvtltd.vercel.app/#business","name":"Agile Edtech Solutions Pvt Ltd","alternateName":"Agile Solutions","url":"https://agilesolutionpvtltd.vercel.app","logo":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","image":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","telephone":"+91-8005677079","email":"agilesolutions.co.in@gmail.com","priceRange":"₹₹","address":{"@type":"PostalAddress","streetAddress":"Shop 17, Green Commercial Park, C-2SF, Jagatpura","addressLocality":"Jaipur","addressRegion":"Rajasthan","postalCode":"302017","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Jaipur"},{"@type":"Country","name":"India"}],"sameAs":["https://www.facebook.com/AgileSolutionz","https://www.instagram.com/AgileSolutionz","https://www.linkedin.com/company/agilesolutions1","https://www.youtube.com/@AgileSolutionz"]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":["LocalBusiness","ProfessionalService"],"@id":"https://agilesolutionpvtltd.vercel.app/#business","name":"Agile Edtech Solutions Pvt Ltd","alternateName":"Agile Solutions","url":"https://agilesolutionpvtltd.vercel.app","logo":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","image":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","telephone":"+91-8005677079","email":"agilesolutions.co.in@gmail.com","priceRange":"₹₹","address":{"@type":"PostalAddress","streetAddress":"Shop 17, Green Commercial Park, C-2SF, Jagatpura","addressLocality":"Jaipur","addressRegion":"Rajasthan","postalCode":"302017","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Jaipur"},{"@type":"Country","name":"India"}],"sameAs":["https://www.facebook.com/AgileSolutionz","https://www.instagram.com/AgileSolutionz","https://www.linkedin.com/company/agilesolutions1","https://www.youtube.com/@AgileSolutionz"]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":["LocalBusiness","ProfessionalService"],"@id":"https://agilesolutionpvtltd.vercel.app/#business","name":"Agile Edtech Solutions Pvt Ltd","alternateName":"Agile Solutions","url":"https://agilesolutionpvtltd.vercel.app","logo":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","image":"https://agilesolutionpvtltd.vercel.app/assets/images/agile-edtech-solutions-logo.png","telephone":"+91-8005677079","email":"agilesolutions.co.in@gmail.com","priceRange":"₹₹","address":{"@type":"PostalAddress","streetAddress":"Shop 17, Green Commercial Park, C-2SF, Jagatpura","addressLocality":"Jaipur","addressRegion":"Rajasthan","postalCode":"302017","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Jaipur"},{"@type":"Country","name":"India"}],"sameAs":["https://www.facebook.com/AgileSolutionz","https://www.instagram.com/AgileSolutionz","https://www.linkedin.com/company/agilesolutions1","https://www.youtube.com/@AgileSolutionz"]}</script>
-  <link rel="apple-touch-icon" href="/assets/images/agile-edtech-solutions-logo.png">
-</head>
-
-
-
-<body>
-
-
-<!----------------------------floating-button----------------------------------->
-
-<div class="floating-buttons">
-
-<a href="https://wa.me/918005677079"
-target="_blank"
-rel="noopener"
-class="float-btn whatsapp">
-
-<i class="fab fa-whatsapp"></i>
-
-</a>
-
-
-<a href="tel:+918005677079"
-class="float-btn call">
-
-<i class="fas fa-phone"></i>
-
-</a>
-
-
-<a href="https://maps.app.goo.gl/vPH27tsbpZQjQtXQ6"
-target="_blank"
-class="float-btn location">
-
-<i class="fas fa-map-marker-alt"></i>
-
-</a>
-
-
-</div>
-
-<!----------------------------end-floating-button----------------------------------->
-
-
-
-<!--------header-import-------------------->
-
-<div id="dynamic-header"></div>
-
-<!---------------end-header-import----------->
-
-
-
-<!-----------------------------banner----------------------------------->
-
-
-<section class="sub-page-banner">
-
-
-<div class="container">
-
-
-<div class="row align-items-center">
-
-
-<div class="col-lg-7 col-md-12 text-center text-lg-start">
-
-
-<h1 class="fw-bold">
-AI Customer Support Bot Development Services
-</h1>
-
-
-<p class="lead">
-Automate Customer Service With Intelligent AI Chatbots
-</p>
-
-
-
-<ul class="breadcrumb-info d-flex align-items-center flex-wrap">
-
-
-<li>
-<a href="index.html">
-Home
-</a>
-</li>
-
-
-<li class="active">
-/ ai automation
-</li>
-
-
-</ul>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!-----------------------------end-banner----------------------------------->
-
-
-
-
-
-<!-----------------------about-secation--------------->
-
-
-<section class="about-secation py-5">
-
-
-<div class="container">
-
-
-<div class="row align-items-center">
-
-
-<div class="col-lg-6">
-
-
-<figure>
-
-<img loading="lazy"
-decoding="async"
-src="assets/service/ai-customer-support-bot.png"
-alt="AI Customer Support Bot Development Services"
-class="img-fluid rounded-5 shadow-sm">
-
-</figure>
-
-
-</div>
-
-
-
-
-<div class="col-lg-6">
-
-
-<div class="about-content ps-lg-4 mt-4 mt-lg-0">
-
-
-<h6>
-AI Automation Excellence
-</h6>
-
-
-
-<h2 class="fw-bold">
-Smart AI Customer Support Bots For Modern Businesses
-</h2>
-
-
-
-<p>
-
-At <strong>Agile Solutions</strong>, we develop advanced AI Customer Support Bots that help businesses automate customer conversations, provide instant responses, and improve customer satisfaction.
-
-</p>
-
-
-
-<p class="mb-4">
-
-Our AI-powered chatbot solutions understand customer queries, automate repetitive support tasks, and help businesses deliver 24/7 personalized customer service across websites, applications, and digital platforms.
-
-</p>
-
-
-
-
-<a href="https://wa.me/918005677079"
-target="_blank"
-rel="noopener"
-class="our-primary-btn contact-btn me-lg-3">
-
-
-<span>
-
-Talk To Us
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/right-arrow.png"
-alt="Right Arrow">
-
-</span>
-
-
-</a>
-
-
-
-
-<a href="our-work.html"
-class="our-secondary-btn mt-3 mt-sm-0">
-
-
-<span>
-
-View Our Work
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/right-arrow.png"
-alt="Right Arrow">
-
-
-</span>
-
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!-----------------------end-about-section--------------->
-
-
-<!----------ourview-section--------------------------->
-
-<section class="ourview-secation py-5">
-
-<div class="container">
-
-
-<div class="heading-tittle text-center">
-
-
-<h2>
-Our AI Customer Support Bot Expertise
-</h2>
-
-
-<p>
-We build intelligent AI chatbot solutions that automate customer interactions and improve business communication.
-</p>
-
-
-</div>
-
-
-
-<div class="owl-carousel owl-theme s-page-carousel">
-
-
-
-<div class="item">
-
-<div class="s-page-card">
-
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/keyword.png"
-alt="AI Chatbot Development">
-
-
-<h2>
-AI Chatbot Development
-</h2>
-
-
-<p>
-Create intelligent AI-powered chatbots that understand customer queries and provide instant automated responses.
-</p>
-
-
-</div>
-
-</div>
-
-
-
-
-<div class="item">
-
-<div class="s-page-card">
-
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/on-page-seo.png"
-alt="Natural Language Processing">
-
-
-<h2>
-Natural Language Processing
-</h2>
-
-
-<p>
-Advanced NLP technology helps AI bots understand human conversations and deliver accurate solutions.
-</p>
-
-
-</div>
-
-</div>
-
-
-
-
-<div class="item">
-
-<div class="s-page-card">
-
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/content-management.png"
-alt="24/7 Customer Support Automation">
-
-
-<h2>
-24/7 Customer Support Automation
-</h2>
-
-
-<p>
-Automate customer support operations and provide instant assistance anytime without delays.
-</p>
-
-
-</div>
-
-</div>
-
-
-
-
-<div class="item">
-
-<div class="s-page-card">
-
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/link-building.png"
-alt="Business Process Automation">
-
-
-<h2>
-Business Process Automation
-</h2>
-
-
-<p>
-Reduce manual tasks by integrating AI automation into your business workflows and processes.
-</p>
-
-
-</div>
-
-</div>
-
-
-
-
-<div class="item">
-
-<div class="s-page-card">
-
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/search.png"
-alt="AI Analytics and Insights">
-
-
-<h2>
-AI Analytics & Insights
-</h2>
-
-
-<p>
-Analyze customer conversations and improve services with AI-driven business insights.
-</p>
-
-
-</div>
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!----------------------------end-ourview-section-------------------------->
-
-
-
-
-
-<!---------------------------------features development-services----------------------->
-
-
-<section class="features development-services py-5">
-
-
-<div class="container">
-
-
-
-<div class="heading-tittle text-center">
-
-
-<h6>
-Our Features
-</h6>
-
-
-<h2 class="fw-bold">
-Advanced AI Customer Support Bot Solutions
-</h2>
-
-
-<p>
-We create smart AI automation solutions that enhance customer experience and improve operational efficiency.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="row g-4 align-items-center justify-content-center">
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="feature-card text-center p-4 h-100">
-
-
-<i class="fa-solid fa-robot fa-3x mb-3 text-primary"></i>
-
-
-<h4 class="fw-bold mb-2">
-AI Chatbot Integration
-</h4>
-
-
-<p>
-Integrate intelligent AI bots with websites, applications, and business platforms.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="feature-card text-center p-4 h-100">
-
-
-<i class="fa-solid fa-comments fa-3x mb-3 text-primary"></i>
-
-
-<h4 class="fw-bold mb-2">
-Smart Conversation Management
-</h4>
-
-
-<p>
-Handle customer conversations with AI-powered natural and human-like responses.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="feature-card text-center p-4 h-100">
-
-
-<i class="fa-solid fa-headset fa-3x mb-3 text-primary"></i>
-
-
-<h4 class="fw-bold mb-2">
-Automated Customer Support
-</h4>
-
-
-<p>
-Provide instant customer assistance and reduce support workload with automation.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="feature-card text-center p-4 h-100">
-
-
-<i class="fa-solid fa-brain fa-3x mb-3 text-primary"></i>
-
-
-<h4 class="fw-bold mb-2">
-Machine Learning Capabilities
-</h4>
-
-
-<p>
-AI bots continuously improve responses through intelligent learning technology.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="feature-card text-center p-4 h-100">
-
-
-<i class="fa-solid fa-plug fa-3x mb-3 text-primary"></i>
-
-
-<h4 class="fw-bold mb-2">
-API & Software Integration
-</h4>
-
-
-<p>
-Connect AI chatbots with CRM, ERP, websites, and third-party applications.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="feature-card text-center p-4 h-100">
-
-
-<i class="fa-solid fa-chart-line fa-3x mb-3 text-primary"></i>
-
-
-<h4 class="fw-bold mb-2">
-AI Performance Analytics
-</h4>
-
-
-<p>
-Monitor chatbot performance and optimize customer engagement strategies.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!--------------------------end-features development-services----------------------->
-
-<!------------------------package-section----------------------->
-
-
-<section class="package-section py-5">
-
-
-<div class="container">
-
-
-
-<div class="heading-tittle text-center">
-
-
-<h6>
-Our Packages
-</h6>
-
-
-<h2 class="fw-bold">
-AI Customer Support Bot Packages
-</h2>
-
-
-<p>
-Choose the right AI chatbot automation package designed according to your business requirements.
-</p>
-
-
-</div>
-
-
-
-
-<div class="row g-4 justify-content-center">
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="package-card text-center p-4 h-100">
-
-
-<h3 class="fw-bold mb-3">
-Basic AI Bot Package
-</h3>
-
-
-
-<ul class="package-features list-unstyled mb-4">
-
-
-<li>
-AI Chatbot Setup
-</li>
-
-
-<li>
-Basic Customer Query Automation
-</li>
-
-
-<li>
-Website Chat Integration
-</li>
-
-
-<li>
-Basic Conversation Flow
-</li>
-
-
-<li>
-Email Support
-</li>
-
-
-</ul>
-
-
-
-
-<a href="https://wa.me/918005677079"
-target="_blank"
-rel="noopener"
-class="our-primary-btn me-2">
-
-
-<span>
-
-Get Quote
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/right-arrow.png"
-alt="Right Arrow">
-
-
-</span>
-
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="package-card text-center p-4 h-100">
-
-
-<h3 class="fw-bold mb-3">
-Professional AI Bot Package
-</h3>
-
-
-
-
-<ul class="package-features list-unstyled mb-4">
-
-
-<li>
-Advanced AI Chatbot Development
-</li>
-
-
-<li>
-Natural Language Processing
-</li>
-
-
-<li>
-CRM Integration
-</li>
-
-
-<li>
-Multi-Platform Support
-</li>
-
-
-<li>
-Performance Monitoring
-</li>
-
-
-</ul>
-
-
-
-
-<a href="https://wa.me/918005677079"
-target="_blank"
-rel="noopener"
-class="our-primary-btn me-2">
-
-
-<span>
-
-Get Quote
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/right-arrow.png"
-alt="Right Arrow">
-
-
-</span>
-
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6">
-
-
-<div class="package-card text-center p-4 h-100">
-
-
-<h3 class="fw-bold mb-3">
-Enterprise AI Automation Package
-</h3>
-
-
-
-
-<ul class="package-features list-unstyled mb-4">
-
-
-<li>
-Custom AI Assistant Development
-</li>
-
-
-<li>
-Advanced Workflow Automation
-</li>
-
-
-<li>
-Multiple System Integration
-</li>
-
-
-<li>
-AI Analytics Dashboard
-</li>
-
-
-<li>
-24/7 Technical Support
-</li>
-
-
-</ul>
-
-
-
-
-
-<a href="https://wa.me/918005677079"
-target="_blank"
-rel="noopener"
-class="our-primary-btn me-2">
-
-
-<span>
-
-Get Quote
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/right-arrow.png"
-alt="Right Arrow">
-
-
-</span>
-
-
-</a>
-
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!------------------------end-package-section----------------------->
-
-
-
-
-
-
-
-<!---------------------------------------what-we-do------------------------------------->
-
-
-<section class="what-we-do">
-
-
-<div class="container">
-
-
-
-<div class="heading-tittle text-center">
-
-
-<h6>
-What We Do
-</h6>
-
-
-
-<h2 class="fw-bold">
-Building Intelligent AI Automation Solutions For Businesses
-</h2>
-
-
-
-<p>
-
-At <strong>Agile Solutions</strong>, we develop AI-powered customer support bots that help businesses automate communication, reduce operational costs, and deliver better customer experiences.
-
-Our AI automation solutions combine advanced technologies like machine learning, natural language processing, and intelligent workflows to create scalable business solutions.
-
-</p>
-
-
-
-</div>
-
-
-
-
-
-<!-- Counter Section -->
-
-
-<div class="counter-section d-flex justify-content-center flex-wrap">
-
-
-
-
-
-<div class="counter-box text-center m-3">
-
-
-<h3 class="counter" data-target="350">
-0
-</h3>
-
-
-<p>
-AI Projects Delivered
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="counter-box text-center m-3">
-
-
-<h3 class="counter" data-target="180">
-0
-</h3>
-
-
-<p>
-Satisfied Clients
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="counter-box text-center m-3">
-
-
-<h3 class="counter" data-target="07">
-0
-</h3>
-
-
-<p>
-Years Of Experience
-</p>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-</section>
-
-
-<!--------------------end-section------------------->
-
-<!-------------------------------accordion----------------------->
-
-
-<section class="accordion-info py-5">
-
-
-<div class="container">
-
-
-<div class="row">
-
-
-
-
-
-<div class="col-lg-6">
-
-
-<div class="service-accordion-section py-5">
-
-
-<div class="mb-3">
-
-
-<h6 class="text-primary">
-AI Customer Support Bot FAQs
-</h6>
-
-
-<h2 class="fw-bold text-dark">
-Frequently Asked Questions
-</h2>
-
-
-<p class="text-muted">
-
-Find answers to common questions about AI Customer Support Bot development and automation services.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="accordion" id="softwareAccordion">
-
-
-
-
-
-<div class="accordion-item mb-3 border-0 shadow-sm">
-
-
-<h2 class="accordion-header" id="faq1">
-
-
-<button class="accordion-button fw-semibold"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#collapse1">
-
-
-What is an AI Customer Support Bot?
-
-
-</button>
-
-
-</h2>
-
-
-
-<div id="collapse1"
-class="accordion-collapse collapse show"
-data-bs-parent="#softwareAccordion">
-
-
-<div class="accordion-body">
-
-
-An AI Customer Support Bot is an intelligent chatbot that uses artificial intelligence to understand customer queries and provide automated responses instantly.
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="accordion-item mb-3 border-0 shadow-sm">
-
-
-<h2 class="accordion-header" id="faq2">
-
-
-<button class="accordion-button collapsed fw-semibold"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#collapse2">
-
-
-How can AI chatbots help my business?
-
-
-</button>
-
-
-</h2>
-
-
-
-<div id="collapse2"
-class="accordion-collapse collapse"
-data-bs-parent="#softwareAccordion">
-
-
-<div class="accordion-body">
-
-
-AI chatbots help businesses provide 24/7 customer support, reduce response time, automate repetitive tasks, and improve customer satisfaction.
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="accordion-item mb-3 border-0 shadow-sm">
-
-
-<h2 class="accordion-header" id="faq3">
-
-
-<button class="accordion-button collapsed fw-semibold"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#collapse3">
-
-
-Can AI bots integrate with my existing software?
-
-
-</button>
-
-
-</h2>
-
-
-
-<div id="collapse3"
-class="accordion-collapse collapse"
-data-bs-parent="#softwareAccordion">
-
-
-<div class="accordion-body">
-
-
-Yes, AI Customer Support Bots can be integrated with websites, CRM systems, ERP software, mobile applications, and third-party platforms.
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="accordion-item mb-3 border-0 shadow-sm">
-
-
-<h2 class="accordion-header" id="faq4">
-
-
-<button class="accordion-button collapsed fw-semibold"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#collapse4">
-
-
-How long does it take to develop an AI chatbot?
-
-
-</button>
-
-
-</h2>
-
-
-
-<div id="collapse4"
-class="accordion-collapse collapse"
-data-bs-parent="#softwareAccordion">
-
-
-<div class="accordion-body">
-
-
-The development timeline depends on chatbot complexity, features, integrations, and customization requirements. Simple bots can be developed quickly while advanced AI systems require more time.
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="accordion-item mb-3 border-0 shadow-sm">
-
-
-<h2 class="accordion-header" id="faq5">
-
-
-<button class="accordion-button collapsed fw-semibold"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#collapse5">
-
-
-Do AI bots support multiple languages?
-
-
-</button>
-
-
-</h2>
-
-
-
-<div id="collapse5"
-class="accordion-collapse collapse"
-data-bs-parent="#softwareAccordion">
-
-
-<div class="accordion-body">
-
-
-Yes, AI chatbots can be trained and configured to support multiple languages for better customer communication.
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="accordion-item mb-3 border-0 shadow-sm">
-
-
-<h2 class="accordion-header" id="faq6">
-
-
-<button class="accordion-button collapsed fw-semibold"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#collapse6">
-
-
-Is AI chatbot automation secure?
-
-
-</button>
-
-
-</h2>
-
-
-
-<div id="collapse6"
-class="accordion-collapse collapse"
-data-bs-parent="#softwareAccordion">
-
-
-<div class="accordion-body">
-
-
-Yes, AI chatbot solutions are developed with security practices to protect customer data and business information.
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="accordion-item mb-3 border-0 shadow-sm">
-
-
-<h2 class="accordion-header" id="faq7">
-
-
-<button class="accordion-button collapsed fw-semibold"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#collapse7">
-
-
-Can AI bots improve customer experience?
-
-
-</button>
-
-
-</h2>
-
-
-
-<div id="collapse7"
-class="accordion-collapse collapse"
-data-bs-parent="#softwareAccordion">
-
-
-<div class="accordion-body">
-
-
-Yes, AI bots provide faster responses, personalized communication, and continuous support which improves overall customer experience.
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-<div class="col-lg-6 build-fast">
-
-
-
-<figure>
-
-
-<img loading="lazy"
-decoding="async"
-src="assets/images/banner-01.png"
-alt="AI Customer Support Bot Automation Services"
-class="img-fluid">
-
-
-</figure>
-
-
-
-
-<h4 class="text-dark">
-
-Build Smart AI-Powered Customer Support Solutions With Agile Solutions Jaipur
-
-</h4>
-
-
-
-<p>
-
-We create scalable AI automation systems that help businesses streamline customer communication, improve productivity, and deliver exceptional digital experiences through intelligent chatbot technology.
-
-</p>
-
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!----------------------------end-accordion----------------------->
-
-
-
-
-
-
-
-<!--------footer-import---------------------->
-
-
-<div id="dynamic-footer"></div>
-
-
-
-
-
-
-
-<!-------------------------------------go-to-top------------------------------------------------------------>
-
-
-<a href="#"
-id="go-to-top"
-class="go-to-top"
-aria-label="Go to top or bottom">
-
-
-<i id="go-to-top-icon"
-class="fa-solid fa-arrow-up"></i>
-
-
-</a>
-
-
-
-
-
-
-
-<!----------------------------scripts--files-->
-
-
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-
-<script>
-const phoneNumber = "8005677079";
-</script>
-
-
-<script src="assets/js/header.js?v=20260407-sitemap-html"></script>
-
-
-<script src="assets/js/footer.js?v=20260407-sitemap-html"></script>
-
-
-<script src="assets/js/seo-manager.js?v=20260407-sitemap-html"></script>
-
-
-<script src="assets/js/script.js"></script>
-
-
-
-
-</body>
-
-
+    <meta
+      name="description"
+      content="Automate customer communication with AI Customer Support Bot Development Services by Agile Edtech Solutions. Build intelligent AI chatbots that provide..."
+    />
+
+    <meta
+      name="keywords"
+      content="AI Customer Support Bot, AI Chatbot Development, Customer Service Automation, AI Chatbot Company Jaipur, Business AI Solutions, Chatbot Development Services, AI Automation Services"
+    />
+
+    <!-- SEO Settings -->
+
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <meta name="revisit-after" content="1 day" />
+
+    <meta name="language" content="en" />
+
+    <meta name="author" content="Agile Edtech Solutions Pvt Ltd" />
+
+    <!-- Open Graph -->
+
+    <meta
+      property="og:title"
+      content="AI Customer Support Bot Development | Agile Solutions"
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:url"
+      content="https://agilesolutions.co.in//ai-customer-support-bot.html"
+    />
+
+    <meta
+      property="og:image"
+      content="https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png"
+    />
+
+    <meta property="og:site_name" content="Agile Edtech Solutions Pvt Ltd" />
+
+    <meta
+      property="og:description"
+      content="Automate customer communication with AI Customer Support Bot Development Services by Agile Edtech Solutions. Build intelligent AI chatbots that provide..."
+    />
+
+    <!-- Canonical URL -->
+
+    <link
+      rel="canonical"
+      href="https://agilesolutions.co.in//ai-customer-support-bot.html"
+    />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/agile-edtech-solutions-favicon.ico"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/css/style.css?v=20260407-sitemap-html"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/css/responsive.css?v=20260407-sitemap-html"
+    />
+
+    <meta
+      name="twitter:title"
+      content="AI Customer Support Bot Development | Agile Solutions"
+    />
+    <meta
+      name="twitter:description"
+      content="Automate customer communication with AI Customer Support Bot Development Services by Agile Edtech Solutions. Build intelligent AI chatbots that provide..."
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://agilesolutions.co.in//ai-customer-support-bot.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://agilesolutions.co.in//ai-customer-support-bot.html"
+    />
+    <link
+      rel="alternate"
+      type="text/markdown"
+      href="https://agilesolutions.co.in//llms.txt"
+      title="AI-readable site summary"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://agilesolutions.co.in//#business",
+        "name": "Agile Edtech Solutions Pvt Ltd",
+        "alternateName": "Agile Solutions",
+        "url": "https://agilesolutions.co.in/",
+        "logo": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "image": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "telephone": "+91-8005677079",
+        "email": "agilesolutions.co.in@gmail.com",
+        "priceRange": "₹₹",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shop 17, Green Commercial Park, C-2SF, Jagatpura",
+          "addressLocality": "Jaipur",
+          "addressRegion": "Rajasthan",
+          "postalCode": "302017",
+          "addressCountry": "IN"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Jaipur" },
+          { "@type": "Country", "name": "India" }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/AgileSolutionz",
+          "https://www.instagram.com/AgileSolutionz",
+          "https://www.linkedin.com/company/agilesolutions1",
+          "https://www.youtube.com/@AgileSolutionz"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://agilesolutions.co.in//#business",
+        "name": "Agile Edtech Solutions Pvt Ltd",
+        "alternateName": "Agile Solutions",
+        "url": "https://agilesolutions.co.in/",
+        "logo": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "image": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "telephone": "+91-8005677079",
+        "email": "agilesolutions.co.in@gmail.com",
+        "priceRange": "₹₹",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shop 17, Green Commercial Park, C-2SF, Jagatpura",
+          "addressLocality": "Jaipur",
+          "addressRegion": "Rajasthan",
+          "postalCode": "302017",
+          "addressCountry": "IN"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Jaipur" },
+          { "@type": "Country", "name": "India" }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/AgileSolutionz",
+          "https://www.instagram.com/AgileSolutionz",
+          "https://www.linkedin.com/company/agilesolutions1",
+          "https://www.youtube.com/@AgileSolutionz"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://agilesolutions.co.in//#business",
+        "name": "Agile Edtech Solutions Pvt Ltd",
+        "alternateName": "Agile Solutions",
+        "url": "https://agilesolutions.co.in/",
+        "logo": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "image": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "telephone": "+91-8005677079",
+        "email": "agilesolutions.co.in@gmail.com",
+        "priceRange": "₹₹",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shop 17, Green Commercial Park, C-2SF, Jagatpura",
+          "addressLocality": "Jaipur",
+          "addressRegion": "Rajasthan",
+          "postalCode": "302017",
+          "addressCountry": "IN"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Jaipur" },
+          { "@type": "Country", "name": "India" }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/AgileSolutionz",
+          "https://www.instagram.com/AgileSolutionz",
+          "https://www.linkedin.com/company/agilesolutions1",
+          "https://www.youtube.com/@AgileSolutionz"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://agilesolutions.co.in//#business",
+        "name": "Agile Edtech Solutions Pvt Ltd",
+        "alternateName": "Agile Solutions",
+        "url": "https://agilesolutions.co.in/",
+        "logo": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "image": "https://agilesolutions.co.in//assets/images/agile-edtech-solutions-logo.png",
+        "telephone": "+91-8005677079",
+        "email": "agilesolutions.co.in@gmail.com",
+        "priceRange": "₹₹",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shop 17, Green Commercial Park, C-2SF, Jagatpura",
+          "addressLocality": "Jaipur",
+          "addressRegion": "Rajasthan",
+          "postalCode": "302017",
+          "addressCountry": "IN"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Jaipur" },
+          { "@type": "Country", "name": "India" }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/AgileSolutionz",
+          "https://www.instagram.com/AgileSolutionz",
+          "https://www.linkedin.com/company/agilesolutions1",
+          "https://www.youtube.com/@AgileSolutionz"
+        ]
+      }
+    </script>
+    <link
+      rel="apple-touch-icon"
+      href="/assets/images/agile-edtech-solutions-logo.png"
+    />
+  </head>
+
+  <body>
+    <!----------------------------floating-button----------------------------------->
+
+    <div class="floating-buttons">
+      <a
+        href="https://wa.me/918005677079"
+        target="_blank"
+        rel="noopener"
+        class="float-btn whatsapp"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <a href="tel:+918005677079" class="float-btn call">
+        <i class="fas fa-phone"></i>
+      </a>
+
+      <a
+        href="https://maps.app.goo.gl/vPH27tsbpZQjQtXQ6"
+        target="_blank"
+        class="float-btn location"
+      >
+        <i class="fas fa-map-marker-alt"></i>
+      </a>
+    </div>
+
+    <!----------------------------end-floating-button----------------------------------->
+
+    <!--------header-import-------------------->
+
+    <div id="dynamic-header"></div>
+
+    <!---------------end-header-import----------->
+
+    <!-----------------------------banner----------------------------------->
+
+    <section class="sub-page-banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-12 text-center text-lg-start">
+            <h1 class="fw-bold">
+              AI Customer Support Bot Development Services
+            </h1>
+
+            <p class="lead">
+              Automate Customer Service With Intelligent AI Chatbots
+            </p>
+
+            <ul class="breadcrumb-info d-flex align-items-center flex-wrap">
+              <li>
+                <a href="index.html"> Home </a>
+              </li>
+
+              <li class="active">/ ai automation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------------------------end-banner----------------------------------->
+
+    <!-----------------------about-secation--------------->
+
+    <section class="about-secation py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <figure>
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/service/ai-customer-support-bot.png"
+                alt="AI Customer Support Bot Development Services"
+                class="img-fluid rounded-5 shadow-sm"
+              />
+            </figure>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="about-content ps-lg-4 mt-4 mt-lg-0">
+              <h6>AI Automation Excellence</h6>
+
+              <h2 class="fw-bold">
+                Smart AI Customer Support Bots For Modern Businesses
+              </h2>
+
+              <p>
+                At <strong>Agile Solutions</strong>, we develop advanced AI
+                Customer Support Bots that help businesses automate customer
+                conversations, provide instant responses, and improve customer
+                satisfaction.
+              </p>
+
+              <p class="mb-4">
+                Our AI-powered chatbot solutions understand customer queries,
+                automate repetitive support tasks, and help businesses deliver
+                24/7 personalized customer service across websites,
+                applications, and digital platforms.
+              </p>
+
+              <a
+                href="https://wa.me/918005677079"
+                target="_blank"
+                rel="noopener"
+                class="our-primary-btn contact-btn me-lg-3"
+              >
+                <span>
+                  Talk To Us
+
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="assets/images/right-arrow.png"
+                    alt="Right Arrow"
+                  />
+                </span>
+              </a>
+
+              <a href="our-work.html" class="our-secondary-btn mt-3 mt-sm-0">
+                <span>
+                  View Our Work
+
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="assets/images/right-arrow.png"
+                    alt="Right Arrow"
+                  />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------------------end-about-section--------------->
+
+    <!----------ourview-section--------------------------->
+
+    <section class="ourview-secation py-5">
+      <div class="container">
+        <div class="heading-tittle text-center">
+          <h2>Our AI Customer Support Bot Expertise</h2>
+
+          <p>
+            We build intelligent AI chatbot solutions that automate customer
+            interactions and improve business communication.
+          </p>
+        </div>
+
+        <div class="owl-carousel owl-theme s-page-carousel">
+          <div class="item">
+            <div class="s-page-card">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/keyword.png"
+                alt="AI Chatbot Development"
+              />
+
+              <h2>AI Chatbot Development</h2>
+
+              <p>
+                Create intelligent AI-powered chatbots that understand customer
+                queries and provide instant automated responses.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="s-page-card">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/on-page-seo.png"
+                alt="Natural Language Processing"
+              />
+
+              <h2>Natural Language Processing</h2>
+
+              <p>
+                Advanced NLP technology helps AI bots understand human
+                conversations and deliver accurate solutions.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="s-page-card">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/content-management.png"
+                alt="24/7 Customer Support Automation"
+              />
+
+              <h2>24/7 Customer Support Automation</h2>
+
+              <p>
+                Automate customer support operations and provide instant
+                assistance anytime without delays.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="s-page-card">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/link-building.png"
+                alt="Business Process Automation"
+              />
+
+              <h2>Business Process Automation</h2>
+
+              <p>
+                Reduce manual tasks by integrating AI automation into your
+                business workflows and processes.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="s-page-card">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/search.png"
+                alt="AI Analytics and Insights"
+              />
+
+              <h2>AI Analytics & Insights</h2>
+
+              <p>
+                Analyze customer conversations and improve services with
+                AI-driven business insights.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------end-ourview-section-------------------------->
+
+    <!---------------------------------features development-services----------------------->
+
+    <section class="features development-services py-5">
+      <div class="container">
+        <div class="heading-tittle text-center">
+          <h6>Our Features</h6>
+
+          <h2 class="fw-bold">Advanced AI Customer Support Bot Solutions</h2>
+
+          <p>
+            We create smart AI automation solutions that enhance customer
+            experience and improve operational efficiency.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-card text-center p-4 h-100">
+              <i class="fa-solid fa-robot fa-3x mb-3 text-primary"></i>
+
+              <h4 class="fw-bold mb-2">AI Chatbot Integration</h4>
+
+              <p>
+                Integrate intelligent AI bots with websites, applications, and
+                business platforms.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-card text-center p-4 h-100">
+              <i class="fa-solid fa-comments fa-3x mb-3 text-primary"></i>
+
+              <h4 class="fw-bold mb-2">Smart Conversation Management</h4>
+
+              <p>
+                Handle customer conversations with AI-powered natural and
+                human-like responses.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-card text-center p-4 h-100">
+              <i class="fa-solid fa-headset fa-3x mb-3 text-primary"></i>
+
+              <h4 class="fw-bold mb-2">Automated Customer Support</h4>
+
+              <p>
+                Provide instant customer assistance and reduce support workload
+                with automation.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-card text-center p-4 h-100">
+              <i class="fa-solid fa-brain fa-3x mb-3 text-primary"></i>
+
+              <h4 class="fw-bold mb-2">Machine Learning Capabilities</h4>
+
+              <p>
+                AI bots continuously improve responses through intelligent
+                learning technology.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-card text-center p-4 h-100">
+              <i class="fa-solid fa-plug fa-3x mb-3 text-primary"></i>
+
+              <h4 class="fw-bold mb-2">API & Software Integration</h4>
+
+              <p>
+                Connect AI chatbots with CRM, ERP, websites, and third-party
+                applications.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-card text-center p-4 h-100">
+              <i class="fa-solid fa-chart-line fa-3x mb-3 text-primary"></i>
+
+              <h4 class="fw-bold mb-2">AI Performance Analytics</h4>
+
+              <p>
+                Monitor chatbot performance and optimize customer engagement
+                strategies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------end-features development-services----------------------->
+
+    <!------------------------package-section----------------------->
+
+    <section class="package-section py-5">
+      <div class="container">
+        <div class="heading-tittle text-center">
+          <h6>Our Packages</h6>
+
+          <h2 class="fw-bold">AI Customer Support Bot Packages</h2>
+
+          <p>
+            Choose the right AI chatbot automation package designed according to
+            your business requirements.
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="package-card text-center p-4 h-100">
+              <h3 class="fw-bold mb-3">Basic AI Bot Package</h3>
+
+              <ul class="package-features list-unstyled mb-4">
+                <li>AI Chatbot Setup</li>
+
+                <li>Basic Customer Query Automation</li>
+
+                <li>Website Chat Integration</li>
+
+                <li>Basic Conversation Flow</li>
+
+                <li>Email Support</li>
+              </ul>
+
+              <a
+                href="https://wa.me/918005677079"
+                target="_blank"
+                rel="noopener"
+                class="our-primary-btn me-2"
+              >
+                <span>
+                  Get Quote
+
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="assets/images/right-arrow.png"
+                    alt="Right Arrow"
+                  />
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="package-card text-center p-4 h-100">
+              <h3 class="fw-bold mb-3">Professional AI Bot Package</h3>
+
+              <ul class="package-features list-unstyled mb-4">
+                <li>Advanced AI Chatbot Development</li>
+
+                <li>Natural Language Processing</li>
+
+                <li>CRM Integration</li>
+
+                <li>Multi-Platform Support</li>
+
+                <li>Performance Monitoring</li>
+              </ul>
+
+              <a
+                href="https://wa.me/918005677079"
+                target="_blank"
+                rel="noopener"
+                class="our-primary-btn me-2"
+              >
+                <span>
+                  Get Quote
+
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="assets/images/right-arrow.png"
+                    alt="Right Arrow"
+                  />
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="package-card text-center p-4 h-100">
+              <h3 class="fw-bold mb-3">Enterprise AI Automation Package</h3>
+
+              <ul class="package-features list-unstyled mb-4">
+                <li>Custom AI Assistant Development</li>
+
+                <li>Advanced Workflow Automation</li>
+
+                <li>Multiple System Integration</li>
+
+                <li>AI Analytics Dashboard</li>
+
+                <li>24/7 Technical Support</li>
+              </ul>
+
+              <a
+                href="https://wa.me/918005677079"
+                target="_blank"
+                rel="noopener"
+                class="our-primary-btn me-2"
+              >
+                <span>
+                  Get Quote
+
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="assets/images/right-arrow.png"
+                    alt="Right Arrow"
+                  />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------end-package-section----------------------->
+
+    <!---------------------------------------what-we-do------------------------------------->
+
+    <section class="what-we-do">
+      <div class="container">
+        <div class="heading-tittle text-center">
+          <h6>What We Do</h6>
+
+          <h2 class="fw-bold">
+            Building Intelligent AI Automation Solutions For Businesses
+          </h2>
+
+          <p>
+            At <strong>Agile Solutions</strong>, we develop AI-powered customer
+            support bots that help businesses automate communication, reduce
+            operational costs, and deliver better customer experiences. Our AI
+            automation solutions combine advanced technologies like machine
+            learning, natural language processing, and intelligent workflows to
+            create scalable business solutions.
+          </p>
+        </div>
+
+        <!-- Counter Section -->
+
+        <div class="counter-section d-flex justify-content-center flex-wrap">
+          <div class="counter-box text-center m-3">
+            <h3 class="counter" data-target="350">0</h3>
+
+            <p>AI Projects Delivered</p>
+          </div>
+
+          <div class="counter-box text-center m-3">
+            <h3 class="counter" data-target="180">0</h3>
+
+            <p>Satisfied Clients</p>
+          </div>
+
+          <div class="counter-box text-center m-3">
+            <h3 class="counter" data-target="07">0</h3>
+
+            <p>Years Of Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------end-section------------------->
+
+    <!-------------------------------accordion----------------------->
+
+    <section class="accordion-info py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="service-accordion-section py-5">
+              <div class="mb-3">
+                <h6 class="text-primary">AI Customer Support Bot FAQs</h6>
+
+                <h2 class="fw-bold text-dark">Frequently Asked Questions</h2>
+
+                <p class="text-muted">
+                  Find answers to common questions about AI Customer Support Bot
+                  development and automation services.
+                </p>
+              </div>
+
+              <div class="accordion" id="softwareAccordion">
+                <div class="accordion-item mb-3 border-0 shadow-sm">
+                  <h2 class="accordion-header" id="faq1">
+                    <button
+                      class="accordion-button fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse1"
+                    >
+                      What is an AI Customer Support Bot?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapse1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#softwareAccordion"
+                  >
+                    <div class="accordion-body">
+                      An AI Customer Support Bot is an intelligent chatbot that
+                      uses artificial intelligence to understand customer
+                      queries and provide automated responses instantly.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 shadow-sm">
+                  <h2 class="accordion-header" id="faq2">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse2"
+                    >
+                      How can AI chatbots help my business?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapse2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#softwareAccordion"
+                  >
+                    <div class="accordion-body">
+                      AI chatbots help businesses provide 24/7 customer support,
+                      reduce response time, automate repetitive tasks, and
+                      improve customer satisfaction.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 shadow-sm">
+                  <h2 class="accordion-header" id="faq3">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse3"
+                    >
+                      Can AI bots integrate with my existing software?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapse3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#softwareAccordion"
+                  >
+                    <div class="accordion-body">
+                      Yes, AI Customer Support Bots can be integrated with
+                      websites, CRM systems, ERP software, mobile applications,
+                      and third-party platforms.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 shadow-sm">
+                  <h2 class="accordion-header" id="faq4">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse4"
+                    >
+                      How long does it take to develop an AI chatbot?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapse4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#softwareAccordion"
+                  >
+                    <div class="accordion-body">
+                      The development timeline depends on chatbot complexity,
+                      features, integrations, and customization requirements.
+                      Simple bots can be developed quickly while advanced AI
+                      systems require more time.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 shadow-sm">
+                  <h2 class="accordion-header" id="faq5">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse5"
+                    >
+                      Do AI bots support multiple languages?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapse5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#softwareAccordion"
+                  >
+                    <div class="accordion-body">
+                      Yes, AI chatbots can be trained and configured to support
+                      multiple languages for better customer communication.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 shadow-sm">
+                  <h2 class="accordion-header" id="faq6">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse6"
+                    >
+                      Is AI chatbot automation secure?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapse6"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#softwareAccordion"
+                  >
+                    <div class="accordion-body">
+                      Yes, AI chatbot solutions are developed with security
+                      practices to protect customer data and business
+                      information.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 shadow-sm">
+                  <h2 class="accordion-header" id="faq7">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse7"
+                    >
+                      Can AI bots improve customer experience?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapse7"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#softwareAccordion"
+                  >
+                    <div class="accordion-body">
+                      Yes, AI bots provide faster responses, personalized
+                      communication, and continuous support which improves
+                      overall customer experience.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 build-fast">
+            <figure>
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/banner-01.png"
+                alt="AI Customer Support Bot Automation Services"
+                class="img-fluid"
+              />
+            </figure>
+
+            <h4 class="text-dark">
+              Build Smart AI-Powered Customer Support Solutions With Agile
+              Solutions Jaipur
+            </h4>
+
+            <p>
+              We create scalable AI automation systems that help businesses
+              streamline customer communication, improve productivity, and
+              deliver exceptional digital experiences through intelligent
+              chatbot technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------end-accordion----------------------->
+
+    <!--------footer-import---------------------->
+
+    <div id="dynamic-footer"></div>
+
+    <!-------------------------------------go-to-top------------------------------------------------------------>
+
+    <a
+      href="#"
+      id="go-to-top"
+      class="go-to-top"
+      aria-label="Go to top or bottom"
+    >
+      <i id="go-to-top-icon" class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!----------------------------scripts--files-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      const phoneNumber = "8005677079";
+    </script>
+
+    <script src="assets/js/header.js?v=20260407-sitemap-html"></script>
+
+    <script src="assets/js/footer.js?v=20260407-sitemap-html"></script>
+
+    <script src="assets/js/seo-manager.js?v=20260407-sitemap-html"></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
