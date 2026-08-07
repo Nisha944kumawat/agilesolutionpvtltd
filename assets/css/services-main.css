@@ -1,447 +1,404 @@
-/*
-==================================================
-UNIQUE SERVICES SECTION
-All CSS is scoped inside .agx-srv6-section
-==================================================
-*/
-
-.agx-srv6-section {
-    --agx-srv6-bg: #071a3d;
-    --agx-srv6-bg-light: #0d2756;
-    --agx-srv6-blue: #3d7cff;
-    --agx-srv6-blue-light: #76a4ff;
-    --agx-srv6-white: #ffffff;
-    --agx-srv6-text: #cbd7ed;
-    --agx-srv6-card-bg: rgba(255, 255, 255, 0.07);
-    --agx-srv6-card-hover: rgba(255, 255, 255, 0.11);
-    --agx-srv6-border: rgba(255, 255, 255, 0.13);
-
-    position: relative;
-    isolation: isolate;
-    overflow: hidden;
-
-    width: 100%;
-    padding: 92px 24px 100px;
-
-    color: var(--agx-srv6-white);
-
-    font-family:
-        "Inter",
-        "Segoe UI",
-        Arial,
-        sans-serif;
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(7, 26, 61, 0.98),
-            rgba(11, 37, 82, 0.97)
-        ),
-        radial-gradient(
-            circle at top right,
-            #2c60c4,
-            transparent 45%
-        );
+:root {
+  --blue: #5875dd;
+  --blue-dark: #5876dd;
+  --ink: #101828;
+  --muted: #667085;
+  --line: #e3eaf5;
+  --card-width: 265px;
 }
 
-/*
-Only elements inside this section
-will receive border-box.
-*/
-
-.agx-srv6-section,
-.agx-srv6-section *,
-.agx-srv6-section *::before,
-.agx-srv6-section *::after {
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #f9fbff;
+  font-family: "Manrope", Arial, sans-serif;
+}
+button,
+a {
+  font: inherit;
 }
 
-/* Background grid */
-
-.agx-srv6-section::before {
-    content: "";
-
-    position: absolute;
-    inset: 0;
-    z-index: -2;
-
-    opacity: 0.18;
-
-    background-image:
-        linear-gradient(
-            rgba(255, 255, 255, 0.08) 1px,
-            transparent 1px
-        ),
-        linear-gradient(
-            90deg,
-            rgba(255, 255, 255, 0.08) 1px,
-            transparent 1px
-        );
-
-    background-size: 58px 58px;
-
-    -webkit-mask-image:
-        linear-gradient(
-            to bottom,
-            transparent,
-            #000 35%,
-            transparent
-        );
-
-    mask-image:
-        linear-gradient(
-            to bottom,
-            transparent,
-            #000 35%,
-            transparent
-        );
+.services {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: #0d2756 url("../images/agile-about-main-team.jpeg") center/cover
+    fixed no-repeat;
+  isolation: isolate;
+}
+.services__shade {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.58),
+      rgba(255, 255, 255, 0.78) 48%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(247, 250, 255, 0.68),
+      rgba(250, 252, 255, 0.82)
+    );
+  backdrop-filter: blur(1px);
+}
+.services__inner {
+  width: min(100% - 48px, 1700px);
+  margin-inline: auto;
+  padding: 64px 0 54px;
+}
+.services__header {
+  text-align: center;
+  margin: 0 auto 38px;
+}
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.19em;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(32px, 3vw, 52px);
+  line-height: 1.13;
+  letter-spacing: -0.045em;
+}
+h1 span {
+  color: var(--blue);
+}
+.intro {
+  margin: 12px 0 0;
+  color: #596579;
+  font-size: 15px;
+  line-height: 1.65;
 }
 
-/* ==========================================
-   BACKGROUND GLOW
-========================================== */
-
-.agx-srv6-section .agx-srv6-glow {
-    position: absolute;
-    z-index: -1;
-
-    width: 420px;
-    height: 420px;
-
-    border-radius: 50%;
-    filter: blur(90px);
-
-    pointer-events: none;
+.slider-shell {
+  position: relative;
+}
+.services-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: var(--card-width);
+  gap: 16px;
+  overflow-x: auto;
+  padding: 8px 4px 20px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  overscroll-behavior-inline: contain;
+}
+.services-grid::-webkit-scrollbar {
+  display: none;
+}
+.services-grid:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 5px;
+  border-radius: 14px;
 }
 
-.agx-srv6-section .agx-srv6-glow-left {
-    left: -220px;
-    bottom: -190px;
-
-    background-color: rgba(36, 104, 255, 0.34);
+.service-card {
+  min-height: 325px;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+  padding: 22px 20px 18px;
+  background: rgba(255, 255, 255, 0.91);
+  border: 1px solid rgba(221, 230, 244, 0.92);
+  border-radius: 18px;
+  box-shadow: 0 10px 32px rgba(19, 60, 110, 0.09);
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  border-color: #9bc8ff;
+  box-shadow: 0 18px 40px rgba(8, 120, 249, 0.15);
+}
+.card-head {
+  display: grid;
+  grid-template-columns: 46px 1fr 18px;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.card-icon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 11px;
+  background: linear-gradient(145deg, #5875dd, #5876dd);
+  color: white;
+  font-size: 21px;
+  box-shadow: 0 8px 18px rgba(8, 120, 249, 0.25);
+}
+.card-kicker {
+  display: block;
+  color: var(--blue);
+  font-size: 8px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.card-title {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 800;
+  text-decoration: none;
+}
+.card-title::after {
+  content: "";
+  position: absolute;
+}
+.card-arrow {
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+.card-arrow:hover {
+  transform: translateX(3px);
+}
+.service-list {
+  display: grid;
+  gap: 11px;
+  margin: 18px 0;
+  padding: 0;
+  list-style: none;
+}
+.service-list a {
+  display: grid;
+  grid-template-columns: 13px 1fr;
+  gap: 7px;
+  align-items: start;
+  color: #344054;
+  font-size: 11px;
+  line-height: 1.35;
+  font-weight: 600;
+  text-decoration: none;
+}
+.service-list a::before {
+  content: "✓";
+  display: grid;
+  place-items: center;
+  width: 12px;
+  height: 12px;
+  margin-top: 1px;
+  border-radius: 50%;
+  color: white;
+  background: var(--blue);
+  font-size: 7px;
+}
+.service-list a:hover {
+  color: var(--blue);
+}
+.card-cta {
+  width: max-content;
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 14px;
+  color: var(--blue-dark);
+  background: #f7fbff;
+  border: 1px solid #d7e8ff;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.card-cta:hover {
+  color: white;
+  background: var(--blue);
+  border-color: var(--blue);
 }
 
-.agx-srv6-section .agx-srv6-glow-right {
-    top: -250px;
-    right: -150px;
-
-    background-color: rgba(74, 137, 255, 0.28);
+.slider-btn {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  color: var(--blue);
+  background: white;
+  border: 1px solid #b8d7fd;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 8px 22px rgba(18, 69, 130, 0.14);
+  transform: translateY(-50%);
+}
+.slider-btn:hover {
+  color: white;
+  background: var(--blue);
+}
+.slider-btn--prev {
+  left: -20px;
+}
+.slider-btn--next {
+  right: -20px;
+}
+.slider-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  min-height: 12px;
+  margin-top: 10px;
+}
+.slider-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #ccd6e4;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.slider-dot.active {
+  width: 20px;
+  border-radius: 999px;
+  background: var(--blue);
+}
+.back-top {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 10;
+  display: none;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  color: white;
+  background: var(--blue);
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(8, 120, 249, 0.32);
+  cursor: pointer;
 }
 
-/* ==========================================
-   SECTION CONTAINER
-========================================== */
-
-.agx-srv6-section .agx-srv6-container {
-    position: relative;
-
-    width: 100%;
-    max-width: 1180px;
-
-    margin-right: auto;
-    margin-left: auto;
+@media (min-width: 1500px) {
+  :root {
+    --card-width: calc((100vw - 48px - 80px) / 6);
+  }
 }
-
-/* ==========================================
-   SECTION HEADER
-========================================== */
-
-.agx-srv6-section .agx-srv6-header {
-    max-width: 850px;
-
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 48px;
-    margin-left: auto;
-
-    text-align: center;
+@media (max-width: 1024px) {
+  :root {
+    --card-width: calc((100vw - 80px) / 3);
+  }
+  .services__inner {
+    width: min(100% - 32px, 960px);
+  }
+  .slider-btn--prev {
+    left: -10px;
+  }
+  .slider-btn--next {
+    right: -10px;
+  }
 }
-
-.agx-srv6-section .agx-srv6-eyebrow {
-    margin-top: 0;
-    margin-bottom: 13px;
-
-    color: var(--agx-srv6-blue-light);
-
-    font-size: 14px;
-    font-weight: 800;
-    line-height: 1.2;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-.agx-srv6-section .agx-srv6-header h2 {
-    margin: 0;
-
-    color: var(--agx-srv6-white);
-
-    font-family:
-        "Inter",
-        "Segoe UI",
-        Arial,
-        sans-serif;
-
-    font-size: clamp(34px, 4vw, 54px);
-    font-weight: 800;
+@media (max-width: 700px) {
+  .services {
+    background-attachment: scroll;
+  }
+  .services__shade {
+    background: rgba(249, 252, 255, 0.78);
+  }
+  .services__inner {
+    width: min(100% - 28px, 520px);
+    padding: 42px 0 52px;
+  }
+  .services__header {
+    margin-bottom: 20px;
+  }
+  .eyebrow {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 28px;
     line-height: 1.12;
-    letter-spacing: -1.5px;
-}
-
-.agx-srv6-section .agx-srv6-header h2 span {
-    color: var(--agx-srv6-blue-light);
-}
-
-.agx-srv6-section .agx-srv6-description {
-    max-width: 730px;
-
-    margin-top: 20px;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
-
-    color: var(--agx-srv6-text);
-
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.7;
-}
-
-/* ==========================================
-   SERVICES GRID
-========================================== */
-
-.agx-srv6-section .agx-srv6-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, minmax(0, 1fr));
-
-    gap: 22px;
-
-    width: 100%;
-}
-
-/* ==========================================
-   SERVICE CARD
-========================================== */
-
-.agx-srv6-section .agx-srv6-card {
-    min-width: 0;
-    margin: 0;
-    padding: 26px;
-
-    border:
-        1px solid var(--agx-srv6-border);
-
-    border-radius: 18px;
-
-    background-color:
-        var(--agx-srv6-card-bg);
-
-    box-shadow:
-        0 18px 45px rgba(0, 0, 0, 0.16);
-
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-
-    transition:
-        transform 0.3s ease,
-        border-color 0.3s ease,
-        background-color 0.3s ease,
-        box-shadow 0.3s ease;
-}
-
-.agx-srv6-section .agx-srv6-card:hover {
-    transform: translateY(-7px);
-
-    border-color:
-        rgba(111, 160, 255, 0.65);
-
-    background-color:
-        var(--agx-srv6-card-hover);
-
-    box-shadow:
-        0 22px 55px rgba(0, 0, 0, 0.25);
-}
-
-/* ==========================================
-   CARD ICON AND HEADING
-========================================== */
-
-.agx-srv6-section .agx-srv6-card-top {
-    display: flex;
-    align-items: flex-start;
-
-    gap: 15px;
-    min-height: 72px;
-
-    padding-bottom: 21px;
-
-    border-bottom:
-        1px solid var(--agx-srv6-border);
-}
-
-.agx-srv6-section .agx-srv6-icon {
-    display: grid;
-    place-items: center;
-
-    flex: 0 0 52px;
-
-    width: 52px;
-    height: 52px;
-
-    border:
-        1px solid rgba(126, 169, 255, 0.33);
-
-    border-radius: 14px;
-
-    color: var(--agx-srv6-white);
-
-    background:
-        linear-gradient(
-            145deg,
-            var(--agx-srv6-blue),
-            #2856c5
-        );
-
-    box-shadow:
-        0 10px 24px rgba(32, 91, 224, 0.35);
-
-    font-size: 22px;
-    line-height: 1;
-}
-
-.agx-srv6-section .agx-srv6-card-title {
-    margin-top: 2px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-
-    color: var(--agx-srv6-white);
-
-    font-family:
-        "Inter",
-        "Segoe UI",
-        Arial,
-        sans-serif;
-
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 1.45;
-}
-
-/* Main heading link */
-
-.agx-srv6-section .agx-srv6-card-title a {
-    color: var(--agx-srv6-white);
-    text-decoration: none;
-
-    transition: color 0.2s ease;
-}
-
-.agx-srv6-section .agx-srv6-card-title a:hover {
-    color: var(--agx-srv6-blue-light);
-}
-
-.agx-srv6-section .agx-srv6-card-title a:focus-visible {
-    color: var(--agx-srv6-blue-light);
-
-    border-radius: 4px;
-
-    outline:
-        3px solid rgba(111, 160, 255, 0.38);
-
-    outline-offset: 4px;
-}
-
-/* ==========================================
-   CARD SUBTOPIC LINKS
-========================================== */
-
-.agx-srv6-section .agx-srv6-links {
-    display: grid;
-    gap: 4px;
-
-    padding-top: 15px;
-}
-
-.agx-srv6-section .agx-srv6-links a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    gap: 14px;
-    min-height: 44px;
-
-    padding: 9px 5px;
-
-    border-radius: 9px;
-
-    color: var(--agx-srv6-text);
-    text-decoration: none;
-
-    font-family:
-        "Inter",
-        "Segoe UI",
-        Arial,
-        sans-serif;
-
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.45;
-
-    transition:
-        padding 0.22s ease,
-        color 0.22s ease,
-        background-color 0.22s ease;
-}
-
-.agx-srv6-section .agx-srv6-links a + a {
-    border-top:
-        1px dashed rgba(255, 255, 255, 0.1);
-}
-
-.agx-srv6-section .agx-srv6-links a span {
-    min-width: 0;
-}
-
-.agx-srv6-section .agx-srv6-links a i {
-    flex: 0 0 auto;
-
-    color: var(--agx-srv6-blue-light);
-
+  }
+  .intro {
     font-size: 12px;
-    line-height: 1;
-
-    transition: transform 0.22s ease;
+    line-height: 1.55;
+  }
+  .desktop-break {
+    display: none;
+  }
+  .services-grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    overflow: visible;
+    padding: 4px 0;
+  }
+  .service-card {
+    min-height: 0;
+    padding: 17px 16px 15px;
+    border-radius: 15px;
+  }
+  .service-card:hover {
+    transform: none;
+  }
+  .card-head {
+    grid-template-columns: 42px 1fr 18px;
+    padding-bottom: 13px;
+  }
+  .card-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 19px;
+  }
+  .card-title {
+    font-size: 13px;
+  }
+  .service-list {
+    gap: 8px;
+    margin: 14px 0;
+  }
+  .service-list a {
+    font-size: 10.5px;
+  }
+  .card-cta {
+    padding: 8px 13px;
+  }
+  .slider-btn,
+  .slider-dots {
+    display: none;
+  }
+  .back-top {
+    display: grid;
+  }
 }
-
-.agx-srv6-section .agx-srv6-links a:hover,
-.agx-srv6-section .agx-srv6-links a:focus-visible {
-    padding-right: 11px;
-    padding-left: 11px;
-
-    color: var(--agx-srv6-white);
-
-    background-color:
-        rgba(61, 124, 255, 0.14);
-
-    outline: none;
-}
-
-.agx-srv6-section .agx-srv6-links a:hover i,
-.agx-srv6-section .agx-srv6-links a:focus-visible i {
-    transform: translateX(4px);
-}
-
-/* ==========================================
-   REDUCED MOTION ACCESSIBILITY
-========================================== */
-
 @media (prefers-reduced-motion: reduce) {
-    .agx-srv6-section *,
-    .agx-srv6-section *::before,
-    .agx-srv6-section *::after {
-        transition-duration: 0.01ms !important;
-    }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
 }
