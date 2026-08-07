@@ -648,53 +648,111 @@
   }
 }
 /*===about-sec==*/
-@media (max-width:1199px) {
-  .about-content p {
-    font-size: 14px;
-  }
-
-  .about-img::after {
-    bottom: -100px;
-    right: -20px;
-  }
-
+@media (max-width: 1399px) {
+  .ag-container { width: min(1240px, calc(100% - 54px)); }
+  .ag-about { min-height: 670px; padding: 52px 0; }
+  .ag-about__grid { gap: 52px; }
+  .ag-about__media { padding: 16px 16px 32px 18px; }
+  .ag-about__experience { width: 220px; min-height: 88px; grid-template-columns: 42px auto 1fr; gap: 10px; padding: 12px 14px; }
+  .ag-about__medal svg { width: 42px; height: 42px; }
+  .ag-about__experience strong { font-size: 36px; }
+  .ag-about__experience-copy { font-size: 12px; }
+  .ag-about h2 { font-size: 44px; }
+  .ag-about__description { font-size: 14px; line-height: 1.65; }
+  .ag-about__features li { min-height: 50px; padding: 10px 13px; font-size: 14px; }
+  .ag-btn { min-height: 52px; padding-inline: 24px; }
 }
 
-@media (max-width:991px) {
-  .about-img::after {
-    bottom: -40px;
-    right: 0px;
+@media (max-width: 1199px) {
+  .ag-container { width: min(1080px, calc(100% - 44px)); }
+  .ag-about__grid { gap: 38px; }
+  .ag-about__experience { width: 194px; min-height: 78px; grid-template-columns: 36px auto 1fr; gap: 8px; padding: 10px 12px; }
+  .ag-about__medal svg { width: 36px; height: 36px; }
+  .ag-about__experience strong { font-size: 32px; }
+  .ag-about__experience-copy { font-size: 11px; }
+  .ag-about h2 { font-size: 36px; margin-bottom: 17px; }
+  .ag-about__eyebrow { margin-bottom: 12px; font-size: 12px; }
+  .ag-about__description { margin-bottom: 14px; font-size: 13px; line-height: 1.58; }
+  .ag-about__features { gap: 8px; }
+  .ag-about__features li { min-height: 46px; padding: 8px 10px; font-size: 12px; }
+  .ag-check { flex-basis: 23px; width: 23px; height: 23px; font-size: 13px; }
+  .ag-about__actions { gap: 10px; margin-top: 14px; }
+  .ag-btn { min-height: 48px; padding-inline: 17px; font-size: 13px; }
+}
+
+/* Tablet aur mobile: content upar, image niche. */
+@media (max-width: 991px) {
+  .ag-about { min-height: auto; padding: 54px 0; }
+  .ag-container { width: min(760px, calc(100% - 40px)); }
+  .ag-about__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: stretch;
   }
+  .ag-about__content { order: 1; }
+  .ag-about__media { order: 2; width: min(100%, 680px); margin-inline: auto; }
+  .ag-about__media { padding: 18px 18px 38px 20px; }
+  .ag-about__experience { width: 220px; min-height: 86px; grid-template-columns: 42px auto 1fr; gap: 10px; padding: 12px 14px; }
+  .ag-about__medal svg { width: 42px; height: 42px; }
+  .ag-about__experience strong { font-size: 36px; }
+  .ag-about__experience-copy { font-size: 12px; }
+  .ag-about__eyebrow { text-align: center; }
+  .ag-about h2 { max-width: 690px; margin-inline: auto; margin-bottom: 18px; text-align: center; }
+  .ag-about__desktop-break { display: none; }
+  .ag-about__description { font-size: 15px; line-height: 1.7; text-align: center; }
+  .ag-about__features li { min-height: 52px; padding: 10px 14px; font-size: 14px; }
+  .ag-about__actions { justify-content: center; }
+  .ag-btn { min-height: 52px; padding-inline: 25px; font-size: 14px; }
+  .ag-about__dots { display: none; }
 }
 
 @media (max-width: 767px) {
-  .about-img::after {
-    bottom: -10px;
-    max-width: 170px;
-    height: 120px;
+  .ag-about { padding: 42px 0; }
+  .ag-container { width: min(100% - 28px, 620px); }
+  .ag-about__grid { gap: 30px; }
+  .ag-about__eyebrow { margin-bottom: 10px; font-size: 11px; letter-spacing: .12em; }
+  .ag-about h2 { font-size: clamp(28px, 8vw, 36px); line-height: 1.18; letter-spacing: -.03em; }
+  .ag-about__description { font-size: 14px; line-height: 1.65; }
+  .ag-about__features { grid-template-columns: 1fr; gap: 8px; }
+  .ag-about__features li { min-height: 50px; }
+  .ag-about__actions { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  .ag-btn { width: 100%; }
+  .ag-about__image-card { padding: 7px; border-radius: 16px; }
+  .ag-about__image-card img { border-radius: 11px; }
+  .ag-about__media { padding: 12px 10px 44px 14px; }
+  .ag-about__backplate { top: 27px; right: 0; bottom: 27px; border-radius: 18px; }
+  .ag-about__stripes { right: 0; bottom: 17px; width: 70px; height: 22px; gap: 5px; }
+  .ag-about__stripes i { width: 17px; }
+  .ag-about__experience {
+    left: 0;
+    bottom: 0;
+    width: 190px;
+    min-height: 74px;
+    grid-template-columns: 34px auto 1fr;
+    gap: 8px;
+    padding: 9px 11px;
+    border-radius: 13px;
   }
-
-  .our-primary-btn {
-    width: 100%;
-  }
-
-  .our-secondary-btn {
-    width: 100%;
-  }
-
-  .heading-tittle h2 {
-    font-size: 24px;
-  }
-
-  .heading-tittle p {
-    font-size: 15px;
-  }
-
-  .heading-tittle {
-    padding: 0 0 10px;
-  }
+  .ag-about__medal svg { width: 34px; height: 34px; }
+  .ag-about__experience strong { font-size: 30px; }
+  .ag-about__experience-copy { font-size: 10px; }
 }
 
+@media (max-width: 390px) {
+  .ag-about { padding: 36px 0; }
+  .ag-about h2 { font-size: 27px; }
+  .ag-about__description { font-size: 13px; }
+  .ag-about__features li { font-size: 13px; }
+  .ag-about__experience { transform: scale(.92); transform-origin: left bottom; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
 /*=====service-secation-media====*/
 /* ========== Services: responsive rules for all devices ========== */
 /* ==========================================
